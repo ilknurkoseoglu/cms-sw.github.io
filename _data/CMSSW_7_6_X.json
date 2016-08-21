@@ -1043,12 +1043,14 @@
             "utests": [
                 {
                     "arch": "slc7_amd64_gcc493", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc493/www/sun/7.6-sun-00/CMSSW_7_6_X_2016-08-21-0000/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc493/www/sun/7.6-sun-00/CMSSW_7_6_X_2016-08-21-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "24"
+                    }
                 }
             ], 
-            "dqm_tests": "inprogress", 
+            "dqm_tests": "found", 
             "igprof": "not-found", 
             "relvals": [], 
             "static_checks": "inprogress", 
