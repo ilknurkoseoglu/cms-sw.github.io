@@ -3,363 +3,6 @@
     "release_name": "CMSSW_8_1_NONTHREADED_X", 
     "comparisons": [
         {
-            "addons": [], 
-            "comp_baseline_state": "errors", 
-            "builds": [], 
-            "valgrind": "not-found", 
-            "compared_tags": "CMSSW_8_1_NONTHREADED_X_2016-08-10-1100-->CMSSW_8_1_NONTHREADED_X_2016-08-11-1100", 
-            "dqm_tests": "inprogress", 
-            "utests": [], 
-            "cmsdistTags": {
-                "slc6_amd64_gcc530": "IB/CMSSW_8_1_NONTHREADED_X_2016-08-11-1100/slc6_amd64_gcc530"
-            }, 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "not-found", 
-            "isIB": true, 
-            "hlt_tests": "not-found", 
-            "comp_baseline": "not-found", 
-            "inProgress": false, 
-            "release_name": "CMSSW_8_1_NONTHREADED_X_2016-08-11-1100", 
-            "tests_archs": [], 
-            "RVExceptions": null, 
-            "merged_prs": [
-                {
-                    "hash": "33f7cfcc48a03b18cfd735809d03732e1da5e54b", 
-                    "title": "Update Hcal MC pulse shapes in all Global Tags", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15335", 
-                    "number": "15335", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "mmusich"
-                }, 
-                {
-                    "hash": "c6a87be821a38e08250fe0be3ae879fa8fea0416", 
-                    "title": "New PF iso recomputation from miniAOD histos 81X V2", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15343", 
-                    "number": "15343", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "archiron"
-                }, 
-                {
-                    "hash": "28b5f38a28186554778bc9829dff579d52c236d2", 
-                    "title": "bsunanda:Run2-alca56 Correct code for IsoTrack and PhiSymmetry calibration", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15354", 
-                    "number": "15354", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "bsunanda"
-                }, 
-                {
-                    "hash": "85ffdf1db1631450af994027af512cccb551d0f5", 
-                    "title": "RPCRecHit with timing and y-coordinate information for iRPC", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15263", 
-                    "number": "15263", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "jhgoh"
-                }, 
-                {
-                    "hash": "32b1ce8887a7102a4d36902f0dbf02b084bdaf6e", 
-                    "title": "Downgrade ROOT error from \"Inverter::Dinv\"", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15420", 
-                    "number": "15420", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "Dr15Jones"
-                }, 
-                {
-                    "hash": "07c9ad4bcabc8e9c4dfd63187d33159abf999a72", 
-                    "title": "Use unique_ptr, not auto_ptr, in DataFormats/Math", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15405", 
-                    "number": "15405", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "wmtan"
-                }, 
-                {
-                    "hash": "c63ee305e9333fa69c7d71cf68da5147ac9cedd7", 
-                    "title": "Use unique_ptr, not auto_ptr, in 2 L1 packages", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15404", 
-                    "number": "15404", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "wmtan"
-                }, 
-                {
-                    "hash": "ef680d63f01b0bcafd4291a030b94fea3d9ffa6b", 
-                    "title": "Remove DataFormats/TrackingSeed as obsolete", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15414", 
-                    "number": "15414", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "makortel"
-                }, 
-                {
-                    "hash": "e681772e90f87b13fb9dee59d8c5cf1dc256fb28", 
-                    "title": "Bugfix for hlt iso mu24 eta2p1", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15297", 
-                    "number": "15297", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "rockybala"
-                }, 
-                {
-                    "hash": "ac9836ea3f97b9ddc3e8efdc8e5f7b45596539fc", 
-                    "title": "SimClustering for HGCal", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15293", 
-                    "number": "15293", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "lgray"
-                }
-            ], 
-            "fwlite": []
-        }, 
-        {
-            "addons": [], 
-            "comp_baseline_state": "errors", 
-            "builds": [], 
-            "valgrind": "not-found", 
-            "compared_tags": "CMSSW_8_1_NONTHREADED_X_2016-08-11-1100-->CMSSW_8_1_NONTHREADED_X_2016-08-11-2300", 
-            "dqm_tests": "found", 
-            "utests": [], 
-            "cmsdistTags": {
-                "slc6_amd64_gcc530": "IB/CMSSW_8_1_NONTHREADED_X_2016-08-11-2300/slc6_amd64_gcc530"
-            }, 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "not-found", 
-            "isIB": true, 
-            "hlt_tests": "not-found", 
-            "comp_baseline": "not-found", 
-            "inProgress": false, 
-            "release_name": "CMSSW_8_1_NONTHREADED_X_2016-08-11-2300", 
-            "tests_archs": [], 
-            "RVExceptions": null, 
-            "merged_prs": [
-                {
-                    "hash": "72363198bc82295bdf87793fde7298ef5916dd5f", 
-                    "title": "Phase2 workflow revamp", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15393", 
-                    "number": "15393", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "kpedro88"
-                }, 
-                {
-                    "hash": "107d291a94c0f6f2f8010c7dededb7d6ac736e61", 
-                    "title": "Added missing header files needed for gcc 6", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15435", 
-                    "number": "15435", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "Dr15Jones"
-                }, 
-                {
-                    "hash": "516d54a56a4ee9f9bec3d6cd83dad4e8ac151232", 
-                    "title": "Prefetch data products from Event concurrently", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15433", 
-                    "number": "15433", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "Dr15Jones"
-                }, 
-                {
-                    "hash": "f6c2c37b66e3687a7b610b6f058b4bcb6891181d", 
-                    "title": "Updating HBHEPulseShapeFlag and HBHEStatusBitSetter for Phase 1", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15406", 
-                    "number": "15406", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "igv4321"
-                }
-            ], 
-            "fwlite": []
-        }, 
-        {
-            "addons": [], 
-            "comp_baseline_state": "errors", 
-            "builds": [], 
-            "valgrind": "not-found", 
-            "compared_tags": "CMSSW_8_1_NONTHREADED_X_2016-08-11-2300-->CMSSW_8_1_NONTHREADED_X_2016-08-12-1100", 
-            "dqm_tests": "found", 
-            "utests": [], 
-            "cmsdistTags": {}, 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "not-found", 
-            "isIB": true, 
-            "hlt_tests": "not-found", 
-            "comp_baseline": "not-found", 
-            "inProgress": false, 
-            "release_name": "CMSSW_8_1_NONTHREADED_X_2016-08-12-1100", 
-            "tests_archs": [], 
-            "RVExceptions": null, 
-            "merged_prs": [
-                {
-                    "hash": "7a66966d8ff12ad3e338b084844b18a5bb625805", 
-                    "title": "MC updates for trancheIV", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15432", 
-                    "number": "15432", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "cms-AlCaDB"
-                }, 
-                {
-                    "hash": "2003f9d9b02b5965ecfbd10455aedc1e93ab22d1", 
-                    "title": "fix bug that led to double inclusion of customise from command line in cmsDriver", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15443", 
-                    "number": "15443", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "davidlange6"
-                }, 
-                {
-                    "hash": "2a48580c5b309ee49e5154db6f0c39f196703d5a", 
-                    "title": "Minor maintenance improvements to WaitingTaskList", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15438", 
-                    "number": "15438", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "Dr15Jones"
-                }, 
-                {
-                    "hash": "e436e831c7baa2a960645f0ccb4e8309fee92ecb", 
-                    "title": "Fix LS reports: only use RawData.", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15412", 
-                    "number": "15412", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "mbandrews"
-                }, 
-                {
-                    "hash": "f1c5b35035acf188741393250ad183fa4519cbe9", 
-                    "title": "rho analyzer", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15233", 
-                    "number": "15233", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "dgulhan"
-                }
-            ], 
-            "fwlite": []
-        }, 
-        {
-            "addons": [], 
-            "comp_baseline_state": "errors", 
-            "builds": [], 
-            "valgrind": "not-found", 
-            "compared_tags": "CMSSW_8_1_NONTHREADED_X_2016-08-12-1100-->CMSSW_8_1_NONTHREADED_X_2016-08-13-1100", 
-            "dqm_tests": "found", 
-            "utests": [], 
-            "cmsdistTags": {}, 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "not-found", 
-            "isIB": true, 
-            "hlt_tests": "not-found", 
-            "comp_baseline": "not-found", 
-            "inProgress": false, 
-            "release_name": "CMSSW_8_1_NONTHREADED_X_2016-08-13-1100", 
-            "tests_archs": [], 
-            "RVExceptions": null, 
-            "merged_prs": [
-                {
-                    "hash": "cbd88c21b2d52358985a939c96780f54765409a5", 
-                    "title": "HIP Killing and PreMixing for 81X", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15436", 
-                    "number": "15436", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "mdhildreth"
-                }, 
-                {
-                    "hash": "cf87ba28648c597a05c78286bdbe295133052968", 
-                    "title": "Adding vtx smearing parameters for 2015 Beta*=90m for FSQ analyses", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15452", 
-                    "number": "15452", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "mmusich"
-                }, 
-                {
-                    "hash": "b80eba3311efdd538a694624f9ca121182750d86", 
-                    "title": "Small modifications based on code review of asynchronous prefetching", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15456", 
-                    "number": "15456", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "Dr15Jones"
-                }
-            ], 
-            "fwlite": []
-        }, 
-        {
-            "addons": [
-                {
-                    "arch": "slc6_amd64_gcc530", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1.NONTHREADED-sun-00/CMSSW_8_1_NONTHREADED_X_2016-08-14-0000/addOnTests.log", 
-                    "details": {}
-                }
-            ], 
-            "comp_baseline_state": "errors", 
-            "builds": [
-                {
-                    "arch": "slc6_amd64_gcc530", 
-                    "passed": "warning", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1.NONTHREADED-sun-00/CMSSW_8_1_NONTHREADED_X_2016-08-14-0000/new/logAnalysis.pkl", 
-                    "details": {
-                        "compWarning": 9, 
-                        "ignoreWarning": 25
-                    }
-                }
-            ], 
-            "valgrind": "not-found", 
-            "compared_tags": "CMSSW_8_1_NONTHREADED_X_2016-08-13-1100-->CMSSW_8_1_NONTHREADED_X_2016-08-14-0000", 
-            "dqm_tests": "found", 
-            "utests": [
-                {
-                    "arch": "slc6_amd64_gcc530", 
-                    "passed": "failed", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1.NONTHREADED-sun-00/CMSSW_8_1_NONTHREADED_X_2016-08-14-0000/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "23"
-                    }
-                }
-            ], 
-            "cmsdistTags": {
-                "slc6_amd64_gcc530": "IB/CMSSW_8_1_NONTHREADED_X_2016-08-14-0000/slc6_amd64_gcc530"
-            }, 
-            "igprof": "not-found", 
-            "relvals": [
-                {
-                    "done": true, 
-                    "arch": "slc6_amd64_gcc530", 
-                    "passed": false, 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1.NONTHREADED-sun-00/CMSSW_8_1_NONTHREADED_X_2016-08-14-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 1442, 
-                        "num_failed": 5
-                    }
-                }
-            ], 
-            "static_checks": "not-found", 
-            "isIB": true, 
-            "hlt_tests": "not-found", 
-            "comp_baseline": "not-found", 
-            "inProgress": false, 
-            "release_name": "CMSSW_8_1_NONTHREADED_X_2016-08-14-0000", 
-            "tests_archs": [
-                "slc6_amd64_gcc530"
-            ], 
-            "RVExceptions": null, 
-            "merged_prs": [], 
-            "fwlite": []
-        }, 
-        {
             "addons": [
                 {
                     "arch": "slc6_amd64_gcc530", 
@@ -391,7 +34,7 @@
                 }
             ], 
             "cmsdistTags": {
-                "slc6_amd64_gcc530": "IB/CMSSW_8_1_NONTHREADED_X_2016-08-14-0000/slc6_amd64_gcc530"
+                "slc6_amd64_gcc530": "Not Found"
             }, 
             "igprof": "not-found", 
             "relvals": [
@@ -461,7 +104,7 @@
                 }
             ], 
             "cmsdistTags": {
-                "slc6_amd64_gcc530": "IB/CMSSW_8_1_NONTHREADED_X_2016-08-14-0000/slc6_amd64_gcc530"
+                "slc6_amd64_gcc530": "Not Found"
             }, 
             "igprof": "not-found", 
             "relvals": [
@@ -567,7 +210,7 @@
                 }
             ], 
             "cmsdistTags": {
-                "slc6_amd64_gcc530": "IB/CMSSW_8_1_NONTHREADED_X_2016-08-14-0000/slc6_amd64_gcc530"
+                "slc6_amd64_gcc530": "Not Found"
             }, 
             "igprof": "not-found", 
             "relvals": [
@@ -637,7 +280,7 @@
                 }
             ], 
             "cmsdistTags": {
-                "slc6_amd64_gcc530": "IB/CMSSW_8_1_NONTHREADED_X_2016-08-14-0000/slc6_amd64_gcc530"
+                "slc6_amd64_gcc530": "Not Found"
             }, 
             "igprof": "not-found", 
             "relvals": [
@@ -709,7 +352,7 @@
                 }
             ], 
             "cmsdistTags": {
-                "slc6_amd64_gcc530": "IB/CMSSW_8_1_NONTHREADED_X_2016-08-14-0000/slc6_amd64_gcc530"
+                "slc6_amd64_gcc530": "Not Found"
             }, 
             "igprof": "not-found", 
             "relvals": [
@@ -872,7 +515,7 @@
                 }
             ], 
             "cmsdistTags": {
-                "slc6_amd64_gcc530": "IB/CMSSW_8_1_NONTHREADED_X_2016-08-14-0000/slc6_amd64_gcc530"
+                "slc6_amd64_gcc530": "Not Found"
             }, 
             "igprof": "not-found", 
             "relvals": [
@@ -945,7 +588,7 @@
                 }
             ], 
             "cmsdistTags": {
-                "slc6_amd64_gcc530": "IB/CMSSW_8_1_NONTHREADED_X_2016-08-14-0000/slc6_amd64_gcc530"
+                "slc6_amd64_gcc530": "Not Found"
             }, 
             "igprof": "not-found", 
             "relvals": [
@@ -1045,7 +688,7 @@
                 }
             ], 
             "cmsdistTags": {
-                "slc6_amd64_gcc530": "IB/CMSSW_8_1_NONTHREADED_X_2016-08-14-0000/slc6_amd64_gcc530"
+                "slc6_amd64_gcc530": "Not Found"
             }, 
             "igprof": "not-found", 
             "relvals": [

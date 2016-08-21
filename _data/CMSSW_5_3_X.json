@@ -1761,94 +1761,6 @@
         }, 
         {
             "fwlite": [], 
-            "addons": [], 
-            "comp_baseline_state": "ok", 
-            "builds": [], 
-            "valgrind": "not-found", 
-            "compared_tags": "CMSSW_5_3_33-->CMSSW_5_3_X_2016-08-07-0000", 
-            "dqm_tests": "inprogress", 
-            "utests": [], 
-            "cmsdistTags": {
-                "slc6_amd64_gcc472": "IB/CMSSW_5_3_X_2016-08-07-0000/slc6_amd64_gcc472"
-            }, 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "not-found", 
-            "isIB": true, 
-            "tests_archs": [], 
-            "comp_baseline": "inprogress", 
-            "inProgress": false, 
-            "release_name": "CMSSW_5_3_X_2016-08-07-0000", 
-            "RVExceptions": null, 
-            "merged_prs": [], 
-            "hlt_tests": "inprogress"
-        }, 
-        {
-            "fwlite": [], 
-            "addons": [], 
-            "comp_baseline_state": "ok", 
-            "builds": [], 
-            "valgrind": "not-found", 
-            "compared_tags": "CMSSW_5_3_X_2016-08-07-0000-->CMSSW_5_3_X_2016-08-10-2300", 
-            "dqm_tests": "inprogress", 
-            "utests": [], 
-            "cmsdistTags": {}, 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "not-found", 
-            "isIB": true, 
-            "tests_archs": [], 
-            "comp_baseline": "inprogress", 
-            "inProgress": false, 
-            "release_name": "CMSSW_5_3_X_2016-08-10-2300", 
-            "RVExceptions": null, 
-            "merged_prs": [
-                {
-                    "hash": "40684019f1196b3f9174a990831407e9c6d323f0", 
-                    "title": "Pick up the wrapper for das_client.py.", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15410", 
-                    "number": "15410", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "degano"
-                }
-            ], 
-            "hlt_tests": "inprogress"
-        }, 
-        {
-            "fwlite": [], 
-            "addons": [], 
-            "comp_baseline_state": "errors", 
-            "builds": [], 
-            "valgrind": "not-found", 
-            "compared_tags": "CMSSW_5_3_X_2016-08-10-2300-->CMSSW_5_3_X_2016-08-11-2300", 
-            "dqm_tests": "inprogress", 
-            "utests": [], 
-            "cmsdistTags": {}, 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "not-found", 
-            "isIB": true, 
-            "tests_archs": [], 
-            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_5_3_X_2016-08-11-2300/slc6_amd64_gcc472/-GenuineIntel/matrix-results", 
-            "inProgress": false, 
-            "release_name": "CMSSW_5_3_X_2016-08-11-2300", 
-            "RVExceptions": null, 
-            "merged_prs": [
-                {
-                    "hash": "ee855c7e6cdfc1efe1e3d734f6b6ced1f4c32a9b", 
-                    "title": "avoid usage of deprecated datasets for relvals", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15424", 
-                    "number": "15424", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "smuzaffar"
-                }
-            ], 
-            "hlt_tests": "found"
-        }, 
-        {
-            "fwlite": [], 
             "addons": [
                 {
                     "arch": "slc6_amd64_gcc472", 
@@ -1870,7 +1782,7 @@
                 }
             ], 
             "valgrind": "not-found", 
-            "compared_tags": "CMSSW_5_3_X_2016-08-11-2300-->CMSSW_5_3_X_2016-08-14-0000", 
+            "compared_tags": "CMSSW_5_3_33-->CMSSW_5_3_X_2016-08-14-0000", 
             "dqm_tests": "found", 
             "utests": [
                 {
@@ -1907,7 +1819,26 @@
             "inProgress": false, 
             "release_name": "CMSSW_5_3_X_2016-08-14-0000", 
             "RVExceptions": null, 
-            "merged_prs": [], 
+            "merged_prs": [
+                {
+                    "hash": "ee855c7e6cdfc1efe1e3d734f6b6ced1f4c32a9b", 
+                    "title": "avoid usage of deprecated datasets for relvals", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15424", 
+                    "number": "15424", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "smuzaffar"
+                }, 
+                {
+                    "hash": "40684019f1196b3f9174a990831407e9c6d323f0", 
+                    "title": "Pick up the wrapper for das_client.py.", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15410", 
+                    "number": "15410", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "degano"
+                }
+            ], 
             "hlt_tests": "found"
         }, 
         {

@@ -3136,25 +3136,75 @@
             "hlt_tests": "inprogress"
         }, 
         {
-            "fwlite": [], 
-            "addons": [], 
-            "comp_baseline_state": "ok", 
-            "builds": [], 
-            "compared_tags": "CMSSW_7_4_9_patch1-->CMSSW_7_4_X_2016-08-07-0000", 
-            "valgrind": "inprogress", 
-            "utests": [], 
-            "dqm_tests": "inprogress", 
+            "fwlite": [
+                {
+                    "arch": "slc6_amd64_gcc491", 
+                    "passed": "error", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-08-14-0000/new_FWLITE/logAnalysis.pkl", 
+                    "details": {
+                        "miscError": 5, 
+                        "compError": 2, 
+                        "linkError": 27
+                    }
+                }
+            ], 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc491", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-08-14-0000/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "comp_baseline_state": "errors", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc491", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-08-14-0000/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 2, 
+                        "ignoreWarning": 20
+                    }
+                }
+            ], 
+            "compared_tags": "CMSSW_7_4_9_patch1-->CMSSW_7_4_X_2016-08-14-0000", 
+            "valgrind": "found", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc491", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-08-14-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "25"
+                    }
+                }
+            ], 
+            "dqm_tests": "found", 
             "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "inprogress", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc491", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-08-14-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 640, 
+                        "num_failed": 119
+                    }
+                }
+            ], 
+            "static_checks": "slc6_amd64_gcc491:reports/modules2statics-filter1.txt\n", 
             "cmsdistTags": {
-                "slc6_amd64_gcc491": "IB/CMSSW_7_4_X_2016-08-07-0000/slc6_amd64_gcc491"
+                "slc6_amd64_gcc491": "IB/CMSSW_7_4_X_2016-08-14-0000/slc6_amd64_gcc491"
             }, 
             "isIB": true, 
-            "comp_baseline": "inprogress", 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_4_X_2016-08-14-0000/slc6_amd64_gcc491/-GenuineIntel/matrix-results", 
             "inProgress": false, 
-            "release_name": "CMSSW_7_4_X_2016-08-07-0000", 
-            "tests_archs": [], 
+            "release_name": "CMSSW_7_4_X_2016-08-14-0000", 
+            "tests_archs": [
+                "slc6_amd64_gcc491"
+            ], 
             "RVExceptions": null, 
             "merged_prs": [
                 {
@@ -3896,13 +3946,13 @@
                     "author_login": "lgray"
                 }, 
                 {
-                    "hash": "49541a69a4cba182620a8a22730339682126d499", 
-                    "title": "[BeamSpot] fit 1D projections of PV distribution to get initial values for 3D fit parameters", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/10782", 
-                    "number": "10782", 
+                    "hash": "9eb8f642958b7db5a21e38444661a29fa8695c3b", 
+                    "title": "change das_client.py to das_client in cmsDriver", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15402", 
+                    "number": "15402", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "MilanoBicocca-pix"
+                    "author_login": "degano"
                 }, 
                 {
                     "hash": "737f5f3ea4b3043ebbfb3040374999eda6ee2db1", 
@@ -3993,6 +4043,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "ggovi"
+                }, 
+                {
+                    "hash": "49541a69a4cba182620a8a22730339682126d499", 
+                    "title": "[BeamSpot] fit 1D projections of PV distribution to get initial values for 3D fit parameters", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/10782", 
+                    "number": "10782", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "MilanoBicocca-pix"
                 }, 
                 {
                     "hash": "6f0b7fe14332bdbc1ae944192feed2dc4f8246d6", 
@@ -4967,112 +5026,6 @@
                     "author_login": "gsafronov"
                 }
             ], 
-            "hlt_tests": "inprogress"
-        }, 
-        {
-            "fwlite": [], 
-            "addons": [], 
-            "comp_baseline_state": "ok", 
-            "builds": [], 
-            "compared_tags": "CMSSW_7_4_X_2016-08-07-0000-->CMSSW_7_4_X_2016-08-09-2300", 
-            "valgrind": "inprogress", 
-            "utests": [], 
-            "dqm_tests": "inprogress", 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "inprogress", 
-            "cmsdistTags": {}, 
-            "isIB": true, 
-            "comp_baseline": "inprogress", 
-            "inProgress": false, 
-            "release_name": "CMSSW_7_4_X_2016-08-09-2300", 
-            "tests_archs": [], 
-            "RVExceptions": null, 
-            "merged_prs": [
-                {
-                    "hash": "9eb8f642958b7db5a21e38444661a29fa8695c3b", 
-                    "title": "change das_client.py to das_client in cmsDriver", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15402", 
-                    "number": "15402", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "degano"
-                }
-            ], 
-            "hlt_tests": "inprogress"
-        }, 
-        {
-            "fwlite": [
-                {
-                    "arch": "slc6_amd64_gcc491", 
-                    "passed": "error", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-08-14-0000/new_FWLITE/logAnalysis.pkl", 
-                    "details": {
-                        "miscError": 5, 
-                        "compError": 2, 
-                        "linkError": 27
-                    }
-                }
-            ], 
-            "addons": [
-                {
-                    "arch": "slc6_amd64_gcc491", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-08-14-0000/addOnTests.log", 
-                    "details": {}
-                }
-            ], 
-            "comp_baseline_state": "errors", 
-            "builds": [
-                {
-                    "arch": "slc6_amd64_gcc491", 
-                    "passed": "warning", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-08-14-0000/new/logAnalysis.pkl", 
-                    "details": {
-                        "compWarning": 2, 
-                        "ignoreWarning": 20
-                    }
-                }
-            ], 
-            "compared_tags": "CMSSW_7_4_X_2016-08-09-2300-->CMSSW_7_4_X_2016-08-14-0000", 
-            "valgrind": "found", 
-            "utests": [
-                {
-                    "arch": "slc6_amd64_gcc491", 
-                    "passed": "failed", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-08-14-0000/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "25"
-                    }
-                }
-            ], 
-            "dqm_tests": "found", 
-            "igprof": "not-found", 
-            "relvals": [
-                {
-                    "done": true, 
-                    "arch": "slc6_amd64_gcc491", 
-                    "passed": false, 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-08-14-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 640, 
-                        "num_failed": 119
-                    }
-                }
-            ], 
-            "static_checks": "slc6_amd64_gcc491:reports/modules2statics-filter1.txt\n", 
-            "cmsdistTags": {
-                "slc6_amd64_gcc491": "IB/CMSSW_7_4_X_2016-08-14-0000/slc6_amd64_gcc491"
-            }, 
-            "isIB": true, 
-            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_4_X_2016-08-14-0000/slc6_amd64_gcc491/-GenuineIntel/matrix-results", 
-            "inProgress": false, 
-            "release_name": "CMSSW_7_4_X_2016-08-14-0000", 
-            "tests_archs": [
-                "slc6_amd64_gcc491"
-            ], 
-            "RVExceptions": null, 
-            "merged_prs": [], 
             "hlt_tests": "found"
         }, 
         {

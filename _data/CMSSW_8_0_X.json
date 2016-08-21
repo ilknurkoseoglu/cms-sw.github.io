@@ -422,34 +422,21 @@
             "addons": [], 
             "comp_baseline_state": "ok", 
             "builds": [], 
-            "compared_tags": "CMSSW_8_0_16-->CMSSW_8_0_X_2016-08-07-0000", 
+            "compared_tags": "CMSSW_8_0_16-->CMSSW_8_0_17", 
             "valgrind": "inprogress", 
             "utests": [], 
             "dqm_tests": "inprogress", 
             "igprof": "not-found", 
             "relvals": [], 
             "static_checks": "inprogress", 
-            "cmsdistTags": {
-                "slc6_amd64_gcc493": "IB/CMSSW_8_0_X_2016-08-07-0000/slc6_amd64_gcc493", 
-                "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2016-08-07-0000/slc6_amd64_gcc530", 
-                "slc7_amd64_gcc530": "IB/CMSSW_8_0_X_2016-08-07-0000/slc7_amd64_gcc530"
-            }, 
-            "isIB": true, 
+            "cmsdistTags": {}, 
+            "isIB": false, 
             "comp_baseline": "inprogress", 
             "inProgress": false, 
-            "release_name": "CMSSW_8_0_X_2016-08-07-0000", 
+            "release_name": "CMSSW_8_0_17", 
             "tests_archs": [], 
             "RVExceptions": null, 
             "merged_prs": [
-                {
-                    "hash": "2f3adccf2582e337b83a761abca890ee8d184f48", 
-                    "title": "bsunanda:Run2-alca54 Backport HcalIsolatedBunch from 8_1_X", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15292", 
-                    "number": "15292", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "bsunanda"
-                }, 
                 {
                     "hash": "93f88dde5720c971597125a3c98415ae6dc70921", 
                     "title": "Revert \"Updating Trigger Path and Fixing for Empty Histograms for single lept\"", 
@@ -458,38 +445,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "cms-sw"
-                }
-            ], 
-            "hlt_tests": "inprogress"
-        }, 
-        {
-            "fwlite": [], 
-            "addons": [], 
-            "comp_baseline_state": "ok", 
-            "builds": [], 
-            "compared_tags": "CMSSW_8_0_X_2016-08-07-0000-->CMSSW_8_0_X_2016-08-08-2300", 
-            "valgrind": "inprogress", 
-            "utests": [], 
-            "dqm_tests": "inprogress", 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "inprogress", 
-            "cmsdistTags": {}, 
-            "isIB": true, 
-            "comp_baseline": "inprogress", 
-            "inProgress": false, 
-            "release_name": "CMSSW_8_0_X_2016-08-08-2300", 
-            "tests_archs": [], 
-            "RVExceptions": null, 
-            "merged_prs": [
+                }, 
                 {
-                    "hash": "b8b0ee640bfe21da717da432e39c7992e1cc666a", 
-                    "title": "80X Adding Mu12_Ele23 path", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15308", 
-                    "number": "15308", 
+                    "hash": "77d408a29245d77247ec7d3fe68ff3063e09b4f4", 
+                    "title": "CTPPS: directory rename Totem -> CTPPS (back-port of #15311)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15317", 
+                    "number": "15317", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "jasperlauwers"
+                    "author_login": "CTPPS"
                 }, 
                 {
                     "hash": "ca8a38dfb4c78e892c9fa44e67388c8fd8b0257a", 
@@ -501,51 +465,6 @@
                     "author_login": "fabozzi"
                 }, 
                 {
-                    "hash": "37cca452abe323a742eca732039af2aa5c9bed52", 
-                    "title": "80X - Added CSC Unpacker check for FED/DDU<->chamber mapping inconsistencies", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15329", 
-                    "number": "15329", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "barvic"
-                }
-            ], 
-            "hlt_tests": "inprogress"
-        }, 
-        {
-            "fwlite": [], 
-            "addons": [], 
-            "comp_baseline_state": "ok", 
-            "builds": [], 
-            "compared_tags": "CMSSW_8_0_X_2016-08-08-2300-->CMSSW_8_0_X_2016-08-09-2300", 
-            "valgrind": "inprogress", 
-            "utests": [], 
-            "dqm_tests": "inprogress", 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "inprogress", 
-            "cmsdistTags": {
-                "slc6_amd64_gcc493": "IB/CMSSW_8_0_X_2016-08-09-2300/slc6_amd64_gcc493", 
-                "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2016-08-09-2300/slc6_amd64_gcc530", 
-                "slc7_amd64_gcc530": "IB/CMSSW_8_0_X_2016-08-09-2300/slc7_amd64_gcc530"
-            }, 
-            "isIB": true, 
-            "comp_baseline": "inprogress", 
-            "inProgress": false, 
-            "release_name": "CMSSW_8_0_X_2016-08-09-2300", 
-            "tests_archs": [], 
-            "RVExceptions": null, 
-            "merged_prs": [
-                {
-                    "hash": "77d408a29245d77247ec7d3fe68ff3063e09b4f4", 
-                    "title": "CTPPS: directory rename Totem -> CTPPS (back-port of #15311)", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15317", 
-                    "number": "15317", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "CTPPS"
-                }, 
-                {
                     "hash": "3390830088d46317af844f903f48d6e15b3d968f", 
                     "title": "dqm plot, pixel endcap roc occupancy in 80x", 
                     "url": "https://github.com/cms-sw/cmssw/pull/15236", 
@@ -553,6 +472,33 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "gouskos"
+                }, 
+                {
+                    "hash": "eba12e7446e64da9970108a4c708eb98a70b186c", 
+                    "title": "Fix failure due to AlCaEcalTrg missing triggerbit in 80X MC relvals", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15373", 
+                    "number": "15373", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
+                }, 
+                {
+                    "hash": "b8b0ee640bfe21da717da432e39c7992e1cc666a", 
+                    "title": "80X Adding Mu12_Ele23 path", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15308", 
+                    "number": "15308", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "jasperlauwers"
+                }, 
+                {
+                    "hash": "37cca452abe323a742eca732039af2aa5c9bed52", 
+                    "title": "80X - Added CSC Unpacker check for FED/DDU<->chamber mapping inconsistencies", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15329", 
+                    "number": "15329", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "barvic"
                 }, 
                 {
                     "hash": "7b5b47e17f819408669054697c1e3a3496e504cd", 
@@ -571,65 +517,6 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "degano"
-                }, 
-                {
-                    "hash": "2d37bdd8a8aa8f04de72505346dcd5986e30e9bc", 
-                    "title": "Update muon timing analyzer 80x", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15349", 
-                    "number": "15349", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "jalimena"
-                }, 
-                {
-                    "hash": "d0816c53668a99bb3474c3ac500aba390ecb8fe1", 
-                    "title": "protect RawTask::_process from processing bad HcalHTRData, backport to 80x", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15391", 
-                    "number": "15391", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "dan131riley"
-                }, 
-                {
-                    "hash": "4945b21eb35cabb75169f099ced7665ab9432375", 
-                    "title": "80x: fix SiPixelAli PCL update logic", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15396", 
-                    "number": "15396", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "mmusich"
-                }
-            ], 
-            "hlt_tests": "inprogress"
-        }, 
-        {
-            "fwlite": [], 
-            "addons": [], 
-            "comp_baseline_state": "ok", 
-            "builds": [], 
-            "compared_tags": "CMSSW_8_0_X_2016-08-09-2300-->CMSSW_8_0_17", 
-            "valgrind": "inprogress", 
-            "utests": [], 
-            "dqm_tests": "inprogress", 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "inprogress", 
-            "cmsdistTags": {}, 
-            "isIB": false, 
-            "comp_baseline": "inprogress", 
-            "inProgress": false, 
-            "release_name": "CMSSW_8_0_17", 
-            "tests_archs": [], 
-            "RVExceptions": null, 
-            "merged_prs": [
-                {
-                    "hash": "eba12e7446e64da9970108a4c708eb98a70b186c", 
-                    "title": "Fix failure due to AlCaEcalTrg missing triggerbit in 80X MC relvals", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15373", 
-                    "number": "15373", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "mmusich"
                 }, 
                 {
                     "hash": "c57dddc4af199e384b7ab61e38ba27b602cfe9e6", 
@@ -659,6 +546,24 @@
                     "author_login": "jaylawhorn"
                 }, 
                 {
+                    "hash": "2d37bdd8a8aa8f04de72505346dcd5986e30e9bc", 
+                    "title": "Update muon timing analyzer 80x", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15349", 
+                    "number": "15349", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "jalimena"
+                }, 
+                {
+                    "hash": "d0816c53668a99bb3474c3ac500aba390ecb8fe1", 
+                    "title": "protect RawTask::_process from processing bad HcalHTRData, backport to 80x", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15391", 
+                    "number": "15391", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "dan131riley"
+                }, 
+                {
                     "hash": "1f3a33b76aee770eec41d1d341766845801aa7eb", 
                     "title": "Subjet TagInfo updates (80X)", 
                     "url": "https://github.com/cms-sw/cmssw/pull/15394", 
@@ -666,6 +571,24 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "cms-btv-pog"
+                }, 
+                {
+                    "hash": "2f3adccf2582e337b83a761abca890ee8d184f48", 
+                    "title": "bsunanda:Run2-alca54 Backport HcalIsolatedBunch from 8_1_X", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15292", 
+                    "number": "15292", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "4945b21eb35cabb75169f099ced7665ab9432375", 
+                    "title": "80x: fix SiPixelAli PCL update logic", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15396", 
+                    "number": "15396", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
                 }, 
                 {
                     "hash": "1b6422712fa648c445e9022b5954f8c98b5685b8", 
@@ -678,166 +601,6 @@
                 }
             ], 
             "hlt_tests": "inprogress"
-        }, 
-        {
-            "fwlite": [], 
-            "addons": [], 
-            "comp_baseline_state": "ok", 
-            "builds": [], 
-            "compared_tags": "CMSSW_8_0_17-->CMSSW_8_0_X_2016-08-10-1100", 
-            "valgrind": "inprogress", 
-            "utests": [], 
-            "dqm_tests": "inprogress", 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "inprogress", 
-            "cmsdistTags": {}, 
-            "isIB": true, 
-            "comp_baseline": "inprogress", 
-            "inProgress": false, 
-            "release_name": "CMSSW_8_0_X_2016-08-10-1100", 
-            "tests_archs": [], 
-            "RVExceptions": null, 
-            "merged_prs": [], 
-            "hlt_tests": "inprogress"
-        }, 
-        {
-            "fwlite": [], 
-            "addons": [], 
-            "comp_baseline_state": "ok", 
-            "builds": [], 
-            "compared_tags": "CMSSW_8_0_X_2016-08-10-1100-->CMSSW_8_0_X_2016-08-10-2300", 
-            "valgrind": "inprogress", 
-            "utests": [], 
-            "dqm_tests": "inprogress", 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "inprogress", 
-            "cmsdistTags": {}, 
-            "isIB": true, 
-            "comp_baseline": "inprogress", 
-            "inProgress": false, 
-            "release_name": "CMSSW_8_0_X_2016-08-10-2300", 
-            "tests_archs": [], 
-            "RVExceptions": null, 
-            "merged_prs": [], 
-            "hlt_tests": "inprogress"
-        }, 
-        {
-            "fwlite": [], 
-            "addons": [], 
-            "comp_baseline_state": "ok", 
-            "builds": [], 
-            "compared_tags": "CMSSW_8_0_X_2016-08-10-2300-->CMSSW_8_0_X_2016-08-11-1100", 
-            "valgrind": "inprogress", 
-            "utests": [], 
-            "dqm_tests": "inprogress", 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "inprogress", 
-            "cmsdistTags": {}, 
-            "isIB": true, 
-            "comp_baseline": "inprogress", 
-            "inProgress": false, 
-            "release_name": "CMSSW_8_0_X_2016-08-11-1100", 
-            "tests_archs": [], 
-            "RVExceptions": null, 
-            "merged_prs": [], 
-            "hlt_tests": "inprogress"
-        }, 
-        {
-            "fwlite": [], 
-            "addons": [], 
-            "comp_baseline_state": "ok", 
-            "builds": [], 
-            "compared_tags": "CMSSW_8_0_X_2016-08-11-1100-->CMSSW_8_0_X_2016-08-11-2300", 
-            "valgrind": "found", 
-            "utests": [], 
-            "dqm_tests": "found", 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "slc6_amd64_gcc530:reports/modules2statics-filter1.txt\n", 
-            "cmsdistTags": {
-                "slc6_amd64_gcc493": "ERR/CMSSW_8_0_X_2016-08-11-2300/slc6_amd64_gcc493", 
-                "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2016-08-11-2300/slc6_amd64_gcc530", 
-                "slc7_amd64_gcc530": "IB/CMSSW_8_0_X_2016-08-11-2300/slc7_amd64_gcc530"
-            }, 
-            "isIB": true, 
-            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_8_0_X_2016-08-11-2300/slc6_amd64_gcc530/-GenuineIntel/matrix-results", 
-            "inProgress": false, 
-            "release_name": "CMSSW_8_0_X_2016-08-11-2300", 
-            "tests_archs": [], 
-            "RVExceptions": null, 
-            "merged_prs": [], 
-            "hlt_tests": "found"
-        }, 
-        {
-            "fwlite": [], 
-            "addons": [], 
-            "comp_baseline_state": "ok", 
-            "builds": [], 
-            "compared_tags": "CMSSW_8_0_X_2016-08-11-2300-->CMSSW_8_0_X_2016-08-12-1100", 
-            "valgrind": "found", 
-            "utests": [], 
-            "dqm_tests": "found", 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "slc6_amd64_gcc530:reports/modules2statics-filter1.txt\n", 
-            "cmsdistTags": {
-                "slc6_amd64_gcc493": "IB/CMSSW_8_0_X_2016-08-12-1100/slc6_amd64_gcc493"
-            }, 
-            "isIB": true, 
-            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_8_0_X_2016-08-12-1100/slc6_amd64_gcc530/-GenuineIntel/matrix-results", 
-            "inProgress": false, 
-            "release_name": "CMSSW_8_0_X_2016-08-12-1100", 
-            "tests_archs": [], 
-            "RVExceptions": null, 
-            "merged_prs": [], 
-            "hlt_tests": "found"
-        }, 
-        {
-            "fwlite": [], 
-            "addons": [], 
-            "comp_baseline_state": "ok", 
-            "builds": [], 
-            "compared_tags": "CMSSW_8_0_X_2016-08-12-1100-->CMSSW_8_0_X_2016-08-12-2300", 
-            "valgrind": "found", 
-            "utests": [], 
-            "dqm_tests": "found", 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "slc6_amd64_gcc530:reports/modules2statics-filter1.txt\n", 
-            "cmsdistTags": {}, 
-            "isIB": true, 
-            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_8_0_X_2016-08-12-2300/slc6_amd64_gcc530/-GenuineIntel/matrix-results", 
-            "inProgress": false, 
-            "release_name": "CMSSW_8_0_X_2016-08-12-2300", 
-            "tests_archs": [], 
-            "RVExceptions": null, 
-            "merged_prs": [], 
-            "hlt_tests": "found"
-        }, 
-        {
-            "fwlite": [], 
-            "addons": [], 
-            "comp_baseline_state": "ok", 
-            "builds": [], 
-            "compared_tags": "CMSSW_8_0_X_2016-08-12-2300-->CMSSW_8_0_X_2016-08-13-1100", 
-            "valgrind": "found", 
-            "utests": [], 
-            "dqm_tests": "found", 
-            "igprof": "not-found", 
-            "relvals": [], 
-            "static_checks": "slc6_amd64_gcc530:reports/modules2statics-filter1.txt\n", 
-            "cmsdistTags": {}, 
-            "isIB": true, 
-            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_8_0_X_2016-08-13-1100/slc6_amd64_gcc530/-GenuineIntel/matrix-results", 
-            "inProgress": false, 
-            "release_name": "CMSSW_8_0_X_2016-08-13-1100", 
-            "tests_archs": [], 
-            "RVExceptions": null, 
-            "merged_prs": [], 
-            "hlt_tests": "found"
         }, 
         {
             "fwlite": [
@@ -900,7 +663,7 @@
                     }
                 }
             ], 
-            "compared_tags": "CMSSW_8_0_X_2016-08-13-1100-->CMSSW_8_0_X_2016-08-14-0000", 
+            "compared_tags": "CMSSW_8_0_17-->CMSSW_8_0_X_2016-08-14-0000", 
             "valgrind": "found", 
             "utests": [
                 {
