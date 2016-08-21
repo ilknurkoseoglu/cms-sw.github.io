@@ -3313,6 +3313,23 @@
     },
     {
         "exitcode": 0,
+        "id": "5.2",
+        "name": "SingleMuPt10+SingleMuPt10FS+HARVESTFS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 112
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "5.3",
         "name": "SingleMuPt100+SingleMuPt100FS+HARVESTFS",
         "steps": [
@@ -3320,6 +3337,23 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 150
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "5.4",
+        "name": "ZEE+ZEEFS+HARVESTFS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 349
             },
             {
                 "errors": 3,
@@ -3410,6 +3444,38 @@
         "exitcode": 0,
         "id": "7.0",
         "name": "Cosmics+Cosmics+DIGICOS+RECOCOS+ALCACOS+HARVESTCOS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 5,
+                "status": "PASSED",
+                "warnings": 12
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "7.1",
+        "name": "CosmicsSPLoose+CosmicsSPLoose+DIGICOS+RECOCOS+ALCACOS+HARVESTCOS",
         "steps": [
             {
                 "errors": 0,
@@ -5244,6 +5310,33 @@
     },
     {
         "exitcode": 0,
+        "id": "134.802",
+        "name": "RunDoubleEG2015C+RunDoubleEG2015C+HLTDR2_25ns+RECODR2_25nsreHLT+HARVESTDR2_25nsreHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 806
+            },
+            {
+                "errors": 2500,
+                "status": "PASSED",
+                "warnings": 945
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "134.803",
         "name": "RunDoubleMuon2015C+RunDoubleMuon2015C+HLTDR2_25ns+RECODR2_25nsreHLT+HARVESTDR2_25nsreHLT",
         "steps": [
@@ -6757,6 +6850,50 @@
     },
     {
         "exitcode": 0,
+        "id": "523.0",
+        "name": "TTbar012Jets_NLO_Mad_13TeV_py8_Evt+TTbar012Jets_5f_NLO_FXFX_Madgraph_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_aMCatNLO_FXFX_5f_max2j_max1p_LHE_pythia8_evtgen+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 5
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 97
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "524.0",
+        "name": "VHToHtt_NLO_Pow_13TeV_py8_Ta+VHToH_Pow_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_Htt_powhegEmissionVeto_pythia8_tauola+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 5
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 15
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "525.0",
         "name": "WTolNuJets_LO_Mad_13TeV_py8_Ta_taupinu+WTolNu01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_MLM_5f_max4j_LHE_pythia8_Tauola_taupinu+HARVESTGEN2",
         "steps": [
@@ -6791,6 +6928,28 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 64
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "527.0",
+        "name": "VHToHtt_NLO_Pow_13TeV_py8_Ta_taupinu+VHToH_Pow_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_Httpinu_powhegEmissionVeto_pythia8_tauola+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 6
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 14
             },
             {
                 "errors": 0,
@@ -7723,6 +7882,28 @@
     },
     {
         "exitcode": 0,
+        "id": "160134.705",
+        "name": "RunMET2015B_MINIAOD+RunMET2015B_MINIAOD+REMINIAODDR2_50ns+HARVESTREMINIAODDR2_50ns",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 109
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 6
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "160134.706",
         "name": "RunMuonEG2015B_MINIAOD+RunMuonEG2015B_MINIAOD+REMINIAODDR2_50ns+HARVESTREMINIAODDR2_50ns",
         "steps": [
@@ -7855,6 +8036,28 @@
     },
     {
         "exitcode": 0,
+        "id": "160134.803",
+        "name": "RunDoubleMuon2015C_MINIAOD+RunDoubleMuon2015C_MINIAOD+REMINIAODDR2_25ns+HARVESTREMINIAODDR2_25ns",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2500,
+                "status": "PASSED",
+                "warnings": 77
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 6
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "160134.804",
         "name": "RunJetHT2015C_MINIAOD+RunJetHT2015C_MINIAOD+REMINIAODDR2_25ns+HARVESTREMINIAODDR2_25ns",
         "steps": [
@@ -7943,6 +8146,28 @@
     },
     {
         "exitcode": 0,
+        "id": "160134.809",
+        "name": "RunSingleEl2015C_MINIAOD+RunSingleEl2015C_MINIAOD+REMINIAODDR2_25ns+HARVESTREMINIAODDR2_25ns",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2500,
+                "status": "PASSED",
+                "warnings": 13
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 6
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "160134.81",
         "name": "RunSingleMu2015C_MINIAOD+RunSingleMu2015C_MINIAOD+REMINIAODDR2_25ns+HARVESTREMINIAODDR2_25ns",
         "steps": [
@@ -7955,6 +8180,28 @@
                 "errors": 2500,
                 "status": "PASSED",
                 "warnings": 65
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 6
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "160134.811",
+        "name": "RunSinglePh2015C_MINIAOD+RunSinglePh2015C_MINIAOD+REMINIAODDR2_25ns+HARVESTREMINIAODDR2_25ns",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2500,
+                "status": "PASSED",
+                "warnings": 54
             },
             {
                 "errors": 0,
@@ -8043,6 +8290,28 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 64
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 6
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "160134.904",
+        "name": "RunJetHT2015D_MINIAOD+RunJetHT2015D_MINIAOD+REMINIAODDR2_25ns+HARVESTREMINIAODDR2_25ns",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 43
             },
             {
                 "errors": 0,
