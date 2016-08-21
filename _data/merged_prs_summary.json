@@ -14029,8 +14029,48 @@
                 "fwlite": [], 
                 "addons": [], 
                 "comp_baseline_state": "ok", 
+                "builds": [
+                    {
+                        "arch": "slc6_amd64_gcc493", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/7.6-sun-11/CMSSW_7_6_X_2016-08-21-1100/new/logAnalysis.pkl", 
+                        "details": {}
+                    }
+                ], 
+                "compared_tags": "CMSSW_7_6_X_2016-08-21-0000-->CMSSW_7_6_X_2016-08-21-1100", 
+                "valgrind": "inprogress", 
+                "utests": [
+                    {
+                        "arch": "slc6_amd64_gcc493", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/7.6-sun-11/CMSSW_7_6_X_2016-08-21-1100/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
+                "dqm_tests": "inprogress", 
+                "igprof": "not-found", 
+                "relvals": [], 
+                "static_checks": "inprogress", 
+                "cmsdistTags": {
+                    "slc6_amd64_gcc493": "IB/CMSSW_7_6_X_2016-08-21-0000/slc6_amd64_gcc493"
+                }, 
+                "isIB": true, 
+                "comp_baseline": "inprogress", 
+                "inProgress": false, 
+                "release_name": "CMSSW_7_6_X_2016-08-21-1100", 
+                "tests_archs": [
+                    "slc6_amd64_gcc493"
+                ], 
+                "RVExceptions": null, 
+                "merged_prs": [], 
+                "hlt_tests": "inprogress"
+            }, 
+            {
+                "fwlite": [], 
+                "addons": [], 
+                "comp_baseline_state": "ok", 
                 "builds": [], 
-                "compared_tags": "CMSSW_7_6_X_2016-08-21-0000-->CMSSW_7_6_X", 
+                "compared_tags": "CMSSW_7_6_X_2016-08-21-1100-->CMSSW_7_6_X", 
                 "valgrind": "inprogress", 
                 "utests": [], 
                 "dqm_tests": "inprogress", 
@@ -26040,12 +26080,6 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-08-14-0000/addOnTests.log", 
                         "details": {}
-                    }, 
-                    {
-                        "arch": "slc7_amd64_gcc530", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-08-14-0000/addOnTests.log", 
-                        "details": {}
                     }
                 ], 
                 "comp_baseline_state": "ok", 
@@ -26058,15 +26092,6 @@
                             "compWarning": 21, 
                             "ignoreWarning": 24
                         }
-                    }, 
-                    {
-                        "arch": "slc7_amd64_gcc530", 
-                        "passed": "warning", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-08-14-0000/new/logAnalysis.pkl", 
-                        "details": {
-                            "compWarning": 7, 
-                            "ignoreWarning": 27
-                        }
                     }
                 ], 
                 "compared_tags": "CMSSW_8_1_0_pre10-->CMSSW_8_1_X_2016-08-14-0000", 
@@ -26078,14 +26103,6 @@
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-08-14-0000/unitTests-summary.log", 
                         "details": {
                             "num_fails": "29"
-                        }
-                    }, 
-                    {
-                        "arch": "slc7_amd64_gcc530", 
-                        "passed": "failed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-08-14-0000/unitTests-summary.log", 
-                        "details": {
-                            "num_fails": "25"
                         }
                     }
                 ], 
@@ -26100,16 +26117,6 @@
                             "num_passed": 1351, 
                             "num_failed": 38
                         }
-                    }, 
-                    {
-                        "done": true, 
-                        "arch": "slc7_amd64_gcc530", 
-                        "passed": false, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-08-14-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                        "details": {
-                            "num_passed": 1442, 
-                            "num_failed": 5
-                        }
                     }
                 ], 
                 "static_checks": "slc6_amd64_gcc530:", 
@@ -26119,8 +26126,7 @@
                 "inProgress": false, 
                 "release_name": "CMSSW_8_1_X_2016-08-14-0000", 
                 "tests_archs": [
-                    "slc7_aarch64_gcc530", 
-                    "slc7_amd64_gcc530"
+                    "slc7_aarch64_gcc530"
                 ], 
                 "RVExceptions": null, 
                 "merged_prs": [], 
@@ -26211,7 +26217,7 @@
                     "slc6_amd64_gcc493": "Not Found", 
                     "slc6_amd64_gcc530": "Not Found", 
                     "slc6_amd64_gcc600": "Not Found", 
-                    "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-08-14-0000/slc7_amd64_gcc530"
+                    "slc7_amd64_gcc530": "Not Found"
                 }, 
                 "addons": [
                     {
@@ -26420,7 +26426,7 @@
                     "slc6_amd64_gcc493": "Not Found", 
                     "slc6_amd64_gcc530": "Not Found", 
                     "slc6_amd64_gcc600": "Not Found", 
-                    "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-08-14-0000/slc7_amd64_gcc530"
+                    "slc7_amd64_gcc530": "Not Found"
                 }, 
                 "addons": [
                     {
@@ -26667,7 +26673,7 @@
                     "slc6_amd64_gcc493": "Not Found", 
                     "slc6_amd64_gcc530": "Not Found", 
                     "slc6_amd64_gcc600": "Not Found", 
-                    "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-08-14-0000/slc7_amd64_gcc530"
+                    "slc7_amd64_gcc530": "Not Found"
                 }, 
                 "addons": [
                     {
@@ -26879,7 +26885,7 @@
                     "slc6_amd64_gcc493": "Not Found", 
                     "slc6_amd64_gcc530": "Not Found", 
                     "slc6_amd64_gcc600": "Not Found", 
-                    "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-08-14-0000/slc7_amd64_gcc530"
+                    "slc7_amd64_gcc530": "Not Found"
                 }, 
                 "addons": [
                     {
@@ -27091,7 +27097,7 @@
                     "slc6_amd64_gcc493": "Not Found", 
                     "slc6_amd64_gcc530": "Not Found", 
                     "slc6_amd64_gcc600": "Not Found", 
-                    "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-08-14-0000/slc7_amd64_gcc530"
+                    "slc7_amd64_gcc530": "Not Found"
                 }, 
                 "addons": [
                     {
@@ -27400,7 +27406,7 @@
                     "slc6_amd64_gcc493": "Not Found", 
                     "slc6_amd64_gcc530": "Not Found", 
                     "slc6_amd64_gcc600": "Not Found", 
-                    "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-08-14-0000/slc7_amd64_gcc530"
+                    "slc7_amd64_gcc530": "Not Found"
                 }, 
                 "addons": [
                     {
@@ -27622,7 +27628,7 @@
                     "slc6_amd64_gcc493": "Not Found", 
                     "slc6_amd64_gcc530": "Not Found", 
                     "slc6_amd64_gcc600": "Not Found", 
-                    "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-08-14-0000/slc7_amd64_gcc530"
+                    "slc7_amd64_gcc530": "Not Found"
                 }, 
                 "addons": [
                     {
@@ -27870,7 +27876,7 @@
                     "slc6_amd64_gcc493": "Not Found", 
                     "slc6_amd64_gcc530": "Not Found", 
                     "slc6_amd64_gcc600": "Not Found", 
-                    "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-08-14-0000/slc7_amd64_gcc530"
+                    "slc7_amd64_gcc530": "Not Found"
                 }, 
                 "addons": [
                     {
@@ -29086,11 +29092,51 @@
             }, 
             {
                 "fwlite": [], 
+                "cmsdistTags": {
+                    "slc6_amd64_gcc530": "IB/CMSSW_8_1_X_2016-08-21-0000/slc6_amd64_gcc530"
+                }, 
+                "addons": [], 
+                "comp_baseline_state": "ok", 
+                "builds": [
+                    {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-11/CMSSW_8_1_X_2016-08-21-1100/new/logAnalysis.pkl", 
+                        "details": {}
+                    }
+                ], 
+                "compared_tags": "CMSSW_8_1_X_2016-08-21-0000-->CMSSW_8_1_X_2016-08-21-1100", 
+                "valgrind": "inprogress", 
+                "utests": [
+                    {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-11/CMSSW_8_1_X_2016-08-21-1100/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
+                "dqm_tests": "inprogress", 
+                "relvals": [], 
+                "static_checks": "inprogress", 
+                "igprof": "inprogress", 
+                "isIB": true, 
+                "comp_baseline": "inprogress", 
+                "inProgress": false, 
+                "release_name": "CMSSW_8_1_X_2016-08-21-1100", 
+                "tests_archs": [
+                    "slc6_amd64_gcc530"
+                ], 
+                "RVExceptions": null, 
+                "merged_prs": [], 
+                "hlt_tests": "inprogress"
+            }, 
+            {
+                "fwlite": [], 
                 "cmsdistTags": {}, 
                 "addons": [], 
                 "comp_baseline_state": "ok", 
                 "builds": [], 
-                "compared_tags": "CMSSW_8_1_X_2016-08-21-0000-->CMSSW_8_1_X", 
+                "compared_tags": "CMSSW_8_1_X_2016-08-21-1100-->CMSSW_8_1_X", 
                 "valgrind": "inprogress", 
                 "utests": [], 
                 "dqm_tests": "inprogress", 
