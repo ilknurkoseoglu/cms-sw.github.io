@@ -1046,7 +1046,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/7.6-sun-00/CMSSW_7_6_X_2016-08-21-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 888, 
+                        "num_passed": 925, 
                         "num_failed": 87
                     }
                 }, 
@@ -1127,7 +1127,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/7.6-sun-11/CMSSW_7_6_X_2016-08-21-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 316, 
+                        "num_passed": 412, 
                         "num_failed": 60
                     }
                 }
@@ -1137,7 +1137,7 @@
                 "slc6_amd64_gcc493": "IB/CMSSW_7_6_X_2016-08-21-0000/slc6_amd64_gcc493"
             }, 
             "isIB": true, 
-            "comp_baseline": "inprogress", 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_6_X_2016-08-21-1100/slc6_amd64_gcc493/-GenuineIntel/matrix-results", 
             "inProgress": false, 
             "release_name": "CMSSW_7_6_X_2016-08-21-1100", 
             "tests_archs": [
