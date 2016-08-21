@@ -213,7 +213,7 @@
                     }
                 }
             ], 
-            "static_checks": "slc6_amd64_gcc491:", 
+            "static_checks": "slc6_amd64_gcc491:reports/modules2statics-filter1.txt\n", 
             "cmsdistTags": {
                 "slc6_amd64_gcc491": "IB/CMSSW_7_5_X_2016-08-21-0000/slc6_amd64_gcc491"
             }, 
