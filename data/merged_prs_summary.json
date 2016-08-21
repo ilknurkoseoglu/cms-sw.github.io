@@ -16462,6 +16462,15 @@
                 "comp_baseline_state": "ok", 
                 "builds": [
                     {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": "warning", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-08-21-0000/new/logAnalysis.pkl", 
+                        "details": {
+                            "compWarning": 22, 
+                            "ignoreWarning": 273
+                        }
+                    }, 
+                    {
                         "arch": "slc7_amd64_gcc530", 
                         "passed": "warning", 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-08-21-0000/new/logAnalysis.pkl", 
@@ -16497,6 +16506,12 @@
                         "details": {
                             "num_fails": "25"
                         }
+                    }, 
+                    {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-08-21-0000/new/logAnalysis.pkl']", 
+                        "details": {}
                     }
                 ], 
                 "dqm_tests": "found", 
@@ -16526,6 +16541,7 @@
                 "static_checks": "inprogress", 
                 "cmsdistTags": {
                     "slc6_amd64_gcc493": "IB/CMSSW_8_0_X_2016-08-21-0000/slc6_amd64_gcc493", 
+                    "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2016-08-21-0000/slc6_amd64_gcc530", 
                     "slc7_amd64_gcc530": "IB/CMSSW_8_0_X_2016-08-21-0000/slc7_amd64_gcc530"
                 }, 
                 "isIB": true, 
@@ -16534,6 +16550,7 @@
                 "release_name": "CMSSW_8_0_X_2016-08-21-0000", 
                 "tests_archs": [
                     "slc6_amd64_gcc493", 
+                    "slc6_amd64_gcc530", 
                     "slc7_amd64_gcc530"
                 ], 
                 "RVExceptions": null, 
