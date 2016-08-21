@@ -7728,11 +7728,51 @@
         }, 
         {
             "fwlite": [], 
+            "cmsdistTags": {
+                "slc6_amd64_gcc530": "IB/CMSSW_8_1_X_2016-08-21-0000/slc6_amd64_gcc530"
+            }, 
+            "addons": [], 
+            "comp_baseline_state": "ok", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-08-21-2300/new/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
+            "compared_tags": "CMSSW_8_1_X_2016-08-21-1100-->CMSSW_8_1_X_2016-08-21-2300", 
+            "valgrind": "inprogress", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-08-21-2300/new/logAnalysis.pkl']", 
+                    "details": {}
+                }
+            ], 
+            "dqm_tests": "inprogress", 
+            "relvals": [], 
+            "static_checks": "inprogress", 
+            "igprof": "inprogress", 
+            "isIB": true, 
+            "comp_baseline": "inprogress", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_1_X_2016-08-21-2300", 
+            "tests_archs": [
+                "slc6_amd64_gcc530"
+            ], 
+            "RVExceptions": null, 
+            "merged_prs": [], 
+            "hlt_tests": "inprogress"
+        }, 
+        {
+            "fwlite": [], 
             "cmsdistTags": {}, 
             "addons": [], 
             "comp_baseline_state": "ok", 
             "builds": [], 
-            "compared_tags": "CMSSW_8_1_X_2016-08-21-1100-->CMSSW_8_1_X", 
+            "compared_tags": "CMSSW_8_1_X_2016-08-21-2300-->CMSSW_8_1_X", 
             "valgrind": "inprogress", 
             "utests": [], 
             "dqm_tests": "inprogress", 
