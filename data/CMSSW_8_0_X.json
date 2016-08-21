@@ -2088,7 +2088,7 @@
                     }
                 }
             ], 
-            "static_checks": "inprogress", 
+            "static_checks": "slc6_amd64_gcc530:reports/modules2statics-filter1.txt\n", 
             "cmsdistTags": {
                 "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2016-08-21-1100/slc6_amd64_gcc530"
             }, 
@@ -2162,7 +2162,7 @@
                 "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2016-08-21-1100/slc6_amd64_gcc530"
             }, 
             "isIB": true, 
-            "comp_baseline": "inprogress", 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_8_0_X_2016-08-21-2300/slc6_amd64_gcc530/-GenuineIntel/matrix-results", 
             "inProgress": false, 
             "release_name": "CMSSW_8_0_X_2016-08-21-2300", 
             "tests_archs": [
