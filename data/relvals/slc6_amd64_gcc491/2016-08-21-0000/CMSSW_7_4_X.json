@@ -312,6 +312,45 @@
         ]
     },
     {
+        "exitcode": 21248,
+        "id": "400.0",
+        "name": "TTbar+TTbarFSPU+HARVESTFS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 21248,
+        "id": "401.0",
+        "name": "TTbarNewMix+TTbarFSPU+HARVESTFS+MINIAODMCUP15FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            }
+        ]
+    },
+    {
         "exitcode": 256,
         "id": "513.0",
         "name": "WJetsLNu_13TeV_madgraph-pythia8+WJetsLNu_13TeV_madgraph-pythia8+HARVESTGEN",
@@ -2868,6 +2907,28 @@
     },
     {
         "exitcode": 256,
+        "id": "4006.0",
+        "name": "SingleElectronFlatPt1To100+SingleElectronFlatPt1To100+DIGIPU1+RECOPU1",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 56
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 256,
         "id": "4007.0",
         "name": "QCD_Pt_30_80_BCtoE_8TeV+QCD_Pt_30_80_BCtoE_8TeV+DIGIPU1+RECOPUDBG",
         "steps": [
@@ -2875,6 +2936,28 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 5
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 256,
+        "id": "4008.0",
+        "name": "QCD_Pt_80_170_BCtoE_8TeV+QCD_Pt_80_170_BCtoE_8TeV+DIGIPU1+RECOPUDBG",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 14
             },
             {
                 "errors": 0,
@@ -5452,6 +5535,30 @@
     },
     {
         "exitcode": 0,
+        "id": "101.0",
+        "name": "SingleElectronE120EHCAL+SingleElectronE120EHCAL",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 47
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "102.0",
+        "name": "SinglePiE50HCAL+SinglePiE50HCAL",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 34
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "103.0",
         "name": "InclusiveppMuX+InclusiveppMuX+DIGI+RECO",
         "steps": [
@@ -5894,6 +6001,18 @@
     },
     {
         "exitcode": 0,
+        "id": "123.3",
+        "name": "SingleMuPt1+SingleMuPt1FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 134
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "124.1",
         "name": "SinglePiPt1+SinglePiPt1FS",
         "steps": [
@@ -5906,6 +6025,30 @@
     },
     {
         "exitcode": 0,
+        "id": "124.2",
+        "name": "ZTT+ZTTFS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 248
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "124.4",
+        "name": "SinglePiPt10+SinglePiPt10FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 278
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "124.5",
         "name": "SinglePiPt100+SinglePiPt100FS",
         "steps": [
@@ -5913,6 +6056,18 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 96
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "124.6",
+        "name": "SingleGammaFlatPt10To10+SingleGammaFlatPt10To10FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 136
             }
         ]
     },
@@ -6670,6 +6825,18 @@
     },
     {
         "exitcode": 0,
+        "id": "135.8",
+        "name": "MinBiasFS_13_ForMixing+MinBiasFS_13_ForMixing",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 10
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "135.9",
         "name": "ZMM_13+ZMMFS_13+HARVESTUP15FS+MINIAODMCUP15FS",
         "steps": [
@@ -7056,6 +7223,40 @@
     },
     {
         "exitcode": 0,
+        "id": "506.0",
+        "name": "WToLNu_13TeV_pythia8+WToLNu_13TeV_pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 30
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "507.0",
+        "name": "SoftQCDDiffractive_13TeV_pythia8+SoftQCDDiffractive_13TeV_pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 45
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "508.0",
         "name": "SoftQCDnonDiffractive_13TeV_pythia8+SoftQCDnonDiffractive_13TeV_pythia8+HARVESTGEN",
         "steps": [
@@ -7097,6 +7298,23 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 44
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "511.0",
+        "name": "QCD_Pt-30_8TeV_herwigpp+QCD_Pt-30_8TeV_herwigpp+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 20
             },
             {
                 "errors": 0,
@@ -7292,6 +7510,28 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 33
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "529.0",
+        "name": "DYTollJets_LO_Mad_13TeV_py8_Ta_taurhonu+DYToll01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_MLM_5f_max4j_LHE_pythia8_Tauola_taurhonu+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 29
             },
             {
                 "errors": 0,
