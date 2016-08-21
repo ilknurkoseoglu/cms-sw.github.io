@@ -7685,9 +7685,11 @@
             "utests": [
                 {
                     "arch": "slc6_amd64_gcc530", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-08-21-0000/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-08-21-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "22"
+                    }
                 }, 
                 {
                     "arch": "slc7_amd64_gcc530", 
@@ -7716,8 +7718,8 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-08-21-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 404, 
-                        "num_failed": 4
+                        "num_passed": 454, 
+                        "num_failed": 5
                     }
                 }, 
                 {
@@ -7726,8 +7728,8 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-08-21-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 688, 
-                        "num_failed": 8
+                        "num_passed": 723, 
+                        "num_failed": 9
                     }
                 }, 
                 {
@@ -7736,7 +7738,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc600/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-08-21-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 17, 
+                        "num_passed": 174, 
                         "num_failed": 0
                     }
                 }
