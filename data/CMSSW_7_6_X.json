@@ -1017,7 +1017,16 @@
             "hlt_tests": "found"
         }, 
         {
-            "fwlite": [], 
+            "fwlite": [
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/7.6-sun-00/CMSSW_7_6_X_2016-08-21-0000/new_FWLITE/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 6
+                    }
+                }
+            ], 
             "addons": [
                 {
                     "arch": "slc7_amd64_gcc493", 
@@ -1074,8 +1083,8 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc493/www/sun/7.6-sun-00/CMSSW_7_6_X_2016-08-21-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 796, 
-                        "num_failed": 88
+                        "num_passed": 848, 
+                        "num_failed": 141
                     }
                 }
             ], 
