@@ -1851,7 +1851,7 @@
                     "details": {}
                 }
             ], 
-            "comp_baseline_state": "ok", 
+            "comp_baseline_state": "errors", 
             "builds": [
                 {
                     "arch": "slc6_amd64_gcc472", 
@@ -1865,7 +1865,7 @@
             ], 
             "valgrind": "not-found", 
             "compared_tags": "CMSSW_5_3_X_2016-08-14-0000-->CMSSW_5_3_X_2016-08-21-0000", 
-            "dqm_tests": "inprogress", 
+            "dqm_tests": "found", 
             "utests": [
                 {
                     "arch": "slc6_amd64_gcc472", 
@@ -1897,7 +1897,7 @@
             "tests_archs": [
                 "slc6_amd64_gcc472"
             ], 
-            "comp_baseline": "inprogress", 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_5_3_X_2016-08-21-0000/slc6_amd64_gcc472/-GenuineIntel/matrix-results", 
             "inProgress": false, 
             "release_name": "CMSSW_5_3_X_2016-08-21-0000", 
             "RVExceptions": null, 
