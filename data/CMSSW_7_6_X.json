@@ -1018,7 +1018,14 @@
         }, 
         {
             "fwlite": [], 
-            "addons": [], 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc493", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc493/www/sun/7.6-sun-00/CMSSW_7_6_X_2016-08-21-0000/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
             "comp_baseline_state": "ok", 
             "builds": [
                 {
