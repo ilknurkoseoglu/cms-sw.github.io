@@ -203,17 +203,17 @@
             "igprof": "not-found", 
             "relvals": [
                 {
-                    "done": false, 
+                    "done": true, 
                     "arch": "slc6_amd64_gcc491", 
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.5-sun-00/CMSSW_7_5_X_2016-08-21-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 713, 
+                        "num_passed": 717, 
                         "num_failed": 84
                     }
                 }
             ], 
-            "static_checks": "inprogress", 
+            "static_checks": "slc6_amd64_gcc491:", 
             "cmsdistTags": {
                 "slc6_amd64_gcc491": "IB/CMSSW_7_5_X_2016-08-21-0000/slc6_amd64_gcc491"
             }, 
