@@ -3,23 +3,8 @@
     "release_name": "CMSSW_7_6_X", 
     "comparisons": [
         {
-            "fwlite": [
-                {
-                    "arch": "slc6_amd64_gcc493", 
-                    "passed": "warning", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/7.6-sun-00/CMSSW_7_6_X_2016-08-14-0000/new_FWLITE/logAnalysis.pkl", 
-                    "details": {
-                        "compWarning": 6
-                    }
-                }
-            ], 
+            "fwlite": [], 
             "addons": [
-                {
-                    "arch": "slc6_amd64_gcc493", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/7.6-sun-00/CMSSW_7_6_X_2016-08-14-0000/addOnTests.log", 
-                    "details": {}
-                }, 
                 {
                     "arch": "slc7_amd64_gcc493", 
                     "passed": true, 
@@ -29,15 +14,6 @@
             ], 
             "comp_baseline_state": "ok", 
             "builds": [
-                {
-                    "arch": "slc6_amd64_gcc493", 
-                    "passed": "warning", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/7.6-sun-00/CMSSW_7_6_X_2016-08-14-0000/new/logAnalysis.pkl", 
-                    "details": {
-                        "compWarning": 6, 
-                        "ignoreWarning": 8
-                    }
-                }, 
                 {
                     "arch": "slc7_amd64_gcc493", 
                     "passed": "warning", 
@@ -52,14 +28,6 @@
             "valgrind": "found", 
             "utests": [
                 {
-                    "arch": "slc6_amd64_gcc493", 
-                    "passed": "failed", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/7.6-sun-00/CMSSW_7_6_X_2016-08-14-0000/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "24"
-                    }
-                }, 
-                {
                     "arch": "slc7_amd64_gcc493", 
                     "passed": "failed", 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc493/www/sun/7.6-sun-00/CMSSW_7_6_X_2016-08-14-0000/unitTests-summary.log", 
@@ -71,16 +39,6 @@
             "dqm_tests": "found", 
             "igprof": "not-found", 
             "relvals": [
-                {
-                    "done": true, 
-                    "arch": "slc6_amd64_gcc493", 
-                    "passed": false, 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/7.6-sun-00/CMSSW_7_6_X_2016-08-14-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 971, 
-                        "num_failed": 145
-                    }
-                }, 
                 {
                     "done": false, 
                     "arch": "slc7_amd64_gcc493", 
@@ -102,7 +60,6 @@
             "inProgress": false, 
             "release_name": "CMSSW_7_6_X_2016-08-14-0000", 
             "tests_archs": [
-                "slc6_amd64_gcc493", 
                 "slc7_amd64_gcc493"
             ], 
             "RVExceptions": null, 
@@ -175,7 +132,7 @@
             ], 
             "static_checks": "slc6_amd64_gcc493:reports/modules2statics-filter1.txt\n", 
             "cmsdistTags": {
-                "slc6_amd64_gcc493": "IB/CMSSW_7_6_X_2016-08-14-0000/slc6_amd64_gcc493"
+                "slc6_amd64_gcc493": "Not Found"
             }, 
             "isIB": true, 
             "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_6_X_2016-08-14-1100/slc6_amd64_gcc493/-GenuineIntel/matrix-results", 
@@ -244,7 +201,7 @@
             ], 
             "static_checks": "slc6_amd64_gcc493:reports/modules2statics-filter1.txt\n", 
             "cmsdistTags": {
-                "slc6_amd64_gcc493": "IB/CMSSW_7_6_X_2016-08-14-0000/slc6_amd64_gcc493"
+                "slc6_amd64_gcc493": "Not Found"
             }, 
             "isIB": true, 
             "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_6_X_2016-08-14-2300/slc6_amd64_gcc493/-GenuineIntel/matrix-results", 
@@ -313,7 +270,7 @@
             ], 
             "static_checks": "slc6_amd64_gcc493:reports/modules2statics-filter1.txt\n", 
             "cmsdistTags": {
-                "slc6_amd64_gcc493": "IB/CMSSW_7_6_X_2016-08-14-0000/slc6_amd64_gcc493"
+                "slc6_amd64_gcc493": "Not Found"
             }, 
             "isIB": true, 
             "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_6_X_2016-08-15-1100/slc6_amd64_gcc493/-GenuineIntel/matrix-results", 
@@ -382,7 +339,7 @@
             ], 
             "static_checks": "slc6_amd64_gcc493:reports/modules2statics-filter1.txt\n", 
             "cmsdistTags": {
-                "slc6_amd64_gcc493": "IB/CMSSW_7_6_X_2016-08-14-0000/slc6_amd64_gcc493"
+                "slc6_amd64_gcc493": "Not Found"
             }, 
             "isIB": true, 
             "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_6_X_2016-08-15-2300/slc6_amd64_gcc493/-GenuineIntel/matrix-results", 
@@ -451,7 +408,7 @@
             ], 
             "static_checks": "slc6_amd64_gcc493:reports/modules2statics-filter1.txt\n", 
             "cmsdistTags": {
-                "slc6_amd64_gcc493": "IB/CMSSW_7_6_X_2016-08-14-0000/slc6_amd64_gcc493"
+                "slc6_amd64_gcc493": "Not Found"
             }, 
             "isIB": true, 
             "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_6_X_2016-08-16-1100/slc6_amd64_gcc493/-GenuineIntel/matrix-results", 
@@ -520,7 +477,7 @@
             ], 
             "static_checks": "slc6_amd64_gcc493:reports/modules2statics-filter1.txt\n", 
             "cmsdistTags": {
-                "slc6_amd64_gcc493": "IB/CMSSW_7_6_X_2016-08-14-0000/slc6_amd64_gcc493"
+                "slc6_amd64_gcc493": "Not Found"
             }, 
             "isIB": true, 
             "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_6_X_2016-08-16-2300/slc6_amd64_gcc493/-GenuineIntel/matrix-results", 
@@ -589,7 +546,7 @@
             ], 
             "static_checks": "slc6_amd64_gcc493:reports/modules2statics-filter1.txt\n", 
             "cmsdistTags": {
-                "slc6_amd64_gcc493": "IB/CMSSW_7_6_X_2016-08-14-0000/slc6_amd64_gcc493"
+                "slc6_amd64_gcc493": "Not Found"
             }, 
             "isIB": true, 
             "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_6_X_2016-08-17-1100/slc6_amd64_gcc493/-GenuineIntel/matrix-results", 
@@ -658,7 +615,7 @@
             ], 
             "static_checks": "slc6_amd64_gcc493:reports/modules2statics-filter1.txt\n", 
             "cmsdistTags": {
-                "slc6_amd64_gcc493": "IB/CMSSW_7_6_X_2016-08-14-0000/slc6_amd64_gcc493"
+                "slc6_amd64_gcc493": "Not Found"
             }, 
             "isIB": true, 
             "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_6_X_2016-08-17-2300/slc6_amd64_gcc493/-GenuineIntel/matrix-results", 
@@ -727,7 +684,7 @@
             ], 
             "static_checks": "slc6_amd64_gcc493:reports/modules2statics-filter1.txt\n", 
             "cmsdistTags": {
-                "slc6_amd64_gcc493": "IB/CMSSW_7_6_X_2016-08-14-0000/slc6_amd64_gcc493"
+                "slc6_amd64_gcc493": "Not Found"
             }, 
             "isIB": true, 
             "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_6_X_2016-08-18-1100/slc6_amd64_gcc493/-GenuineIntel/matrix-results", 
@@ -796,7 +753,7 @@
             ], 
             "static_checks": "slc6_amd64_gcc493:reports/modules2statics-filter1.txt\n", 
             "cmsdistTags": {
-                "slc6_amd64_gcc493": "IB/CMSSW_7_6_X_2016-08-14-0000/slc6_amd64_gcc493"
+                "slc6_amd64_gcc493": "Not Found"
             }, 
             "isIB": true, 
             "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_6_X_2016-08-18-2300/slc6_amd64_gcc493/-GenuineIntel/matrix-results", 
@@ -865,7 +822,7 @@
             ], 
             "static_checks": "slc6_amd64_gcc493:reports/modules2statics-filter1.txt\n", 
             "cmsdistTags": {
-                "slc6_amd64_gcc493": "IB/CMSSW_7_6_X_2016-08-14-0000/slc6_amd64_gcc493"
+                "slc6_amd64_gcc493": "Not Found"
             }, 
             "isIB": true, 
             "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_6_X_2016-08-19-1100/slc6_amd64_gcc493/-GenuineIntel/matrix-results", 
@@ -934,7 +891,7 @@
             ], 
             "static_checks": "slc6_amd64_gcc493:reports/modules2statics-filter1.txt\n", 
             "cmsdistTags": {
-                "slc6_amd64_gcc493": "IB/CMSSW_7_6_X_2016-08-14-0000/slc6_amd64_gcc493"
+                "slc6_amd64_gcc493": "Not Found"
             }, 
             "isIB": true, 
             "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_6_X_2016-08-19-2300/slc6_amd64_gcc493/-GenuineIntel/matrix-results", 
@@ -1003,7 +960,7 @@
             ], 
             "static_checks": "slc6_amd64_gcc493:reports/modules2statics-filter1.txt\n", 
             "cmsdistTags": {
-                "slc6_amd64_gcc493": "IB/CMSSW_7_6_X_2016-08-14-0000/slc6_amd64_gcc493"
+                "slc6_amd64_gcc493": "Not Found"
             }, 
             "isIB": true, 
             "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_6_X_2016-08-20-1100/slc6_amd64_gcc493/-GenuineIntel/matrix-results", 
@@ -1089,7 +1046,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/7.6-sun-00/CMSSW_7_6_X_2016-08-21-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 731, 
+                        "num_passed": 888, 
                         "num_failed": 87
                     }
                 }, 
@@ -1154,12 +1111,14 @@
             "utests": [
                 {
                     "arch": "slc6_amd64_gcc493", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/7.6-sun-11/CMSSW_7_6_X_2016-08-21-1100/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/7.6-sun-11/CMSSW_7_6_X_2016-08-21-1100/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "24"
+                    }
                 }
             ], 
-            "dqm_tests": "inprogress", 
+            "dqm_tests": "found", 
             "igprof": "not-found", 
             "relvals": [
                 {
@@ -1168,7 +1127,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/7.6-sun-11/CMSSW_7_6_X_2016-08-21-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 217, 
+                        "num_passed": 316, 
                         "num_failed": 60
                     }
                 }

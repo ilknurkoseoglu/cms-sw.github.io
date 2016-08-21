@@ -7722,12 +7722,14 @@
             "utests": [
                 {
                     "arch": "slc6_amd64_gcc530", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-11/CMSSW_8_1_X_2016-08-21-1100/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-11/CMSSW_8_1_X_2016-08-21-1100/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "23"
+                    }
                 }
             ], 
-            "dqm_tests": "inprogress", 
+            "dqm_tests": "found", 
             "relvals": [
                 {
                     "done": false, 
@@ -7735,13 +7737,13 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-11/CMSSW_8_1_X_2016-08-21-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 61, 
+                        "num_passed": 114, 
                         "num_failed": 0
                     }
                 }
             ], 
             "static_checks": "inprogress", 
-            "igprof": "inprogress", 
+            "igprof": "found", 
             "isIB": true, 
             "comp_baseline": "inprogress", 
             "inProgress": false, 
