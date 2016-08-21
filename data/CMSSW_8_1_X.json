@@ -7708,7 +7708,7 @@
                     "details": {}
                 }
             ], 
-            "dqm_tests": "inprogress", 
+            "dqm_tests": "found", 
             "relvals": [
                 {
                     "done": false, 
