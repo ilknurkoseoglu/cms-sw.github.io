@@ -85,7 +85,7 @@
     "CMSSW_7_6_X_2016-08-17-2300": "slc6_amd64_gcc493", 
     "CMSSW_8_1_ICC_X_2016-08-14-0000": "slc6_amd64_gcc530", 
     "CMSSW_8_1_ICC_X_2016-08-19-2300": "slc6_amd64_gcc530", 
-    "CMSSW_8_0_X_2016-08-21-0000": "slc6_amd64_gcc493,slc7_amd64_gcc530", 
+    "CMSSW_8_0_X_2016-08-21-0000": "slc6_amd64_gcc493,slc6_amd64_gcc530,slc7_amd64_gcc530", 
     "CMSSW_7_1_X_2016-08-21-0000": "slc6_amd64_gcc481", 
     "CMSSW_8_1_ICC_X_2016-08-15-2300": "slc6_amd64_gcc530", 
     "CMSSW_8_1_DEVEL_X_2016-08-16-1100": "slc6_amd64_gcc530", 
