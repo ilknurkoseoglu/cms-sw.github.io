@@ -2484,6 +2484,33 @@
     },
     {
         "exitcode": 0,
+        "id": "4.28",
+        "name": "HighMet2011A+HighMet2011A+HLTDSKIM+RECODreHLT+HARVESTDreHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 32
+            },
+            {
+                "errors": 24589,
+                "status": "PASSED",
+                "warnings": 557
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.29",
         "name": "RunMinBias2011B+RunMinBias2011B+HLTD+RECODreHLT+HARVESTDreHLT+SKIMDreHLT",
         "steps": [
@@ -3617,6 +3644,33 @@
     },
     {
         "exitcode": 0,
+        "id": "26.0",
+        "name": "WE+WEINPUT+DIGI+RECOAlCaCalo+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 25
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 398
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "27.0",
         "name": "WM+WMINPUT+DIGI+RECO+HARVEST",
         "steps": [
@@ -3661,6 +3715,33 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 131
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "29.0",
+        "name": "ZEE+ZEEINPUT+DIGI+RECOAlCaCalo+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 98
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 162
             },
             {
                 "errors": 3,
@@ -4730,6 +4811,28 @@
                 "errors": 8262,
                 "status": "PASSED",
                 "warnings": 201
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "135.3",
+        "name": "SingleMuPt100_UP15+SingleMuPt100FS_UP15+HARVESTUP15FS+MINIAODMCUP15FS",
+        "steps": [
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 155
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 8262,
+                "status": "PASSED",
+                "warnings": 14
             }
         ]
     },
@@ -5848,6 +5951,28 @@
     },
     {
         "exitcode": 0,
+        "id": "4006.0",
+        "name": "SingleElectronFlatPt1To100+SingleElectronFlatPt1To100+DIGIPU1+RECOPU1",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 20
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 470
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4007.0",
         "name": "QCD_Pt_30_80_BCtoE_8TeV+QCD_Pt_30_80_BCtoE_8TeV+DIGIPU1+RECOPUDBG",
         "steps": [
@@ -6207,6 +6332,28 @@
                 "errors": 8262,
                 "status": "PASSED",
                 "warnings": 17
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250408.0",
+        "name": "SMS-T1tttt_mGl-1500_mLSP-100_13+FS_SMS-T1tttt_mGl-1500_mLSP-100_13_PRMXUP15_PU25+HARVESTUP15FS+MINIAODMCUP15FS",
+        "steps": [
+            {
+                "errors": 14,
+                "status": "PASSED",
+                "warnings": 3130
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 8262,
+                "status": "PASSED",
+                "warnings": 38
             }
         ]
     },
