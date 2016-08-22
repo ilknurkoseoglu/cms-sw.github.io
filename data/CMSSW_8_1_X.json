@@ -7617,22 +7617,45 @@
         }, 
         {
             "fwlite": [], 
-            "cmsdistTags": {}, 
+            "cmsdistTags": {
+                "slc6_amd64_gcc493": "IB/CMSSW_8_1_X_2016-08-21-0000/slc6_amd64_gcc493"
+            }, 
             "addons": [], 
             "comp_baseline_state": "ok", 
-            "builds": [], 
-            "compared_tags": "CMSSW_8_1_X_2016-08-21-2300-->CMSSW_8_1_X", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": "error", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-08-22-1100/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 1, 
+                        "linkError": 1, 
+                        "compError": 2, 
+                        "ignoreWarning": 8
+                    }
+                }
+            ], 
+            "compared_tags": "CMSSW_8_1_X_2016-08-21-2300-->CMSSW_8_1_X_2016-08-22-1100", 
             "valgrind": "inprogress", 
-            "utests": [], 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc6_amd64_gcc493/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-08-22-1100/new/logAnalysis.pkl']", 
+                    "details": {}
+                }
+            ], 
             "dqm_tests": "inprogress", 
             "relvals": [], 
             "static_checks": "inprogress", 
             "igprof": "inprogress", 
-            "isIB": false, 
+            "isIB": true, 
             "comp_baseline": "inprogress", 
             "inProgress": false, 
-            "release_name": "CMSSW_8_1_X", 
-            "tests_archs": [], 
+            "release_name": "CMSSW_8_1_X_2016-08-22-1100", 
+            "tests_archs": [
+                "slc6_amd64_gcc493"
+            ], 
             "RVExceptions": null, 
             "merged_prs": [
                 {
@@ -7699,6 +7722,28 @@
                     "author_login": "matz-e"
                 }
             ], 
+            "hlt_tests": "inprogress"
+        }, 
+        {
+            "fwlite": [], 
+            "cmsdistTags": {}, 
+            "addons": [], 
+            "comp_baseline_state": "ok", 
+            "builds": [], 
+            "compared_tags": "CMSSW_8_1_X_2016-08-22-1100-->CMSSW_8_1_X", 
+            "valgrind": "inprogress", 
+            "utests": [], 
+            "dqm_tests": "inprogress", 
+            "relvals": [], 
+            "static_checks": "inprogress", 
+            "igprof": "inprogress", 
+            "isIB": false, 
+            "comp_baseline": "inprogress", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_1_X", 
+            "tests_archs": [], 
+            "RVExceptions": null, 
+            "merged_prs": [], 
             "hlt_tests": "inprogress"
         }
     ]
