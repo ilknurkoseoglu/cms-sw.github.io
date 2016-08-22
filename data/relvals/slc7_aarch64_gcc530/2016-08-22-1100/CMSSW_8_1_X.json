@@ -1,0 +1,29 @@
+[
+    {
+        "exitcode": 0,
+        "id": "136.724",
+        "name": "RunJetHT2016B+RunJetHT2016B+HLTDR2_2016+RECODR2_2016reHLT_skimJetHT+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 573
+            },
+            {
+                "errors": 840,
+                "status": "PASSED",
+                "warnings": 344
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 9
+            }
+        ]
+    }
+]
