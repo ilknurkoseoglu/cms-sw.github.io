@@ -1347,7 +1347,14 @@
             "fwlite": []
         }, 
         {
-            "addons": [], 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1.CLANG-mon-11/CMSSW_8_1_CLANG_X_2016-08-22-1100/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
             "comp_baseline_state": "errors", 
             "builds": [
                 {
@@ -1377,7 +1384,18 @@
                 "slc6_amd64_gcc530": "ERR/CMSSW_8_1_CLANG_X_2016-08-22-1100/slc6_amd64_gcc530"
             }, 
             "igprof": "not-found", 
-            "relvals": [], 
+            "relvals": [
+                {
+                    "done": false, 
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1.CLANG-mon-11/CMSSW_8_1_CLANG_X_2016-08-22-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 51, 
+                        "num_failed": 84
+                    }
+                }
+            ], 
             "static_checks": "not-found", 
             "isIB": true, 
             "hlt_tests": "not-found", 
