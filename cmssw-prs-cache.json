@@ -14153,6 +14153,13 @@
     "title": "Backport of #14179: Speed up Jet Producer for HLT", 
     "user_ref": "backport80_pr14179"
   }, 
+  "15227": {
+    "author": "suchandradutta", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "33a05abf72b718fa036a8c87c9ab33828ad33efb", 
+    "title": "Digi validation suite updated", 
+    "user_ref": "Phase2Digitizer_81X_160718"
+  }, 
   "15228": {
     "author": "dmitrijus", 
     "branch": "CMSSW_8_1_X", 
@@ -15083,6 +15090,20 @@
     "hash": "7e49509ce0cf28dc01143fb3a9b2256bd5ec0948", 
     "title": "Switching BoostedDoubleSV tagger to v3 training", 
     "user_ref": "BoostedDoubleSVTaggerV3-PR_from-CMSSW_8_1_X_2016-08-10-1100"
+  }, 
+  "15447": {
+    "author": "mtosi", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "d6861782b900228f801c8785a6c284fa2c6cda6b", 
+    "title": "hip monitoring", 
+    "user_ref": "hipMonitoring"
+  }, 
+  "15448": {
+    "author": "makortel", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "475a0dd8e30258d095de4080e8b6e110d447d6a0", 
+    "title": "Use standard tracking validation for phase2", 
+    "user_ref": "trkStandardValidationPhase2"
   }, 
   "1545": {
     "author": "vadler", 

@@ -17830,6 +17830,42 @@
                 "RVExceptions": null, 
                 "merged_prs": [
                     {
+                        "hash": "d6861782b900228f801c8785a6c284fa2c6cda6b", 
+                        "title": "hip monitoring", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15447", 
+                        "number": "15447", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mtosi"
+                    }, 
+                    {
+                        "hash": "33a05abf72b718fa036a8c87c9ab33828ad33efb", 
+                        "title": "Digi validation suite updated", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15227", 
+                        "number": "15227", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "suchandradutta"
+                    }, 
+                    {
+                        "hash": "6768c8cf2cac31559b0413b886cc922bb00961b6", 
+                        "title": "Have InputProductResolver use DelayedReader", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15526", 
+                        "number": "15526", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "475a0dd8e30258d095de4080e8b6e110d447d6a0", 
+                        "title": "Use standard tracking validation for phase2", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15448", 
+                        "number": "15448", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
                         "hash": "37ef0a7c574aeee03c22e1b423a9e2cfac121bc6", 
                         "title": "Fix setting cross section in Rivet analaysis", 
                         "url": "https://github.com/cms-sw/cmssw/pull/15462", 
@@ -17846,15 +17882,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "matz-e"
-                    }, 
-                    {
-                        "hash": "6768c8cf2cac31559b0413b886cc922bb00961b6", 
-                        "title": "Have InputProductResolver use DelayedReader", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/15526", 
-                        "number": "15526", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
                     }
                 ], 
                 "fwlite": []
@@ -18960,13 +18987,22 @@
                 "RVExceptions": null, 
                 "merged_prs": [
                     {
-                        "hash": "37ef0a7c574aeee03c22e1b423a9e2cfac121bc6", 
-                        "title": "Fix setting cross section in Rivet analaysis", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/15462", 
-                        "number": "15462", 
+                        "hash": "d6861782b900228f801c8785a6c284fa2c6cda6b", 
+                        "title": "hip monitoring", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15447", 
+                        "number": "15447", 
                         "is_merge_commit": false, 
                         "from_merge_commit": true, 
-                        "author_login": "vciulli"
+                        "author_login": "mtosi"
+                    }, 
+                    {
+                        "hash": "33a05abf72b718fa036a8c87c9ab33828ad33efb", 
+                        "title": "Digi validation suite updated", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15227", 
+                        "number": "15227", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "suchandradutta"
                     }, 
                     {
                         "hash": "6768c8cf2cac31559b0413b886cc922bb00961b6", 
@@ -18976,6 +19012,33 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": true, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "475a0dd8e30258d095de4080e8b6e110d447d6a0", 
+                        "title": "Use standard tracking validation for phase2", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15448", 
+                        "number": "15448", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "37ef0a7c574aeee03c22e1b423a9e2cfac121bc6", 
+                        "title": "Fix setting cross section in Rivet analaysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15462", 
+                        "number": "15462", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "vciulli"
+                    }, 
+                    {
+                        "hash": "10ff4ac4acf6414a817ba7db651c567a649134d3", 
+                        "title": "Change HCAL TP compression to account for multiple FG bits.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15514", 
+                        "number": "15514", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "matz-e"
                     }
                 ], 
                 "fwlite": []
@@ -20318,6 +20381,42 @@
                 "RVExceptions": null, 
                 "merged_prs": [
                     {
+                        "hash": "d6861782b900228f801c8785a6c284fa2c6cda6b", 
+                        "title": "hip monitoring", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15447", 
+                        "number": "15447", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mtosi"
+                    }, 
+                    {
+                        "hash": "33a05abf72b718fa036a8c87c9ab33828ad33efb", 
+                        "title": "Digi validation suite updated", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15227", 
+                        "number": "15227", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "suchandradutta"
+                    }, 
+                    {
+                        "hash": "6768c8cf2cac31559b0413b886cc922bb00961b6", 
+                        "title": "Have InputProductResolver use DelayedReader", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15526", 
+                        "number": "15526", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "475a0dd8e30258d095de4080e8b6e110d447d6a0", 
+                        "title": "Use standard tracking validation for phase2", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15448", 
+                        "number": "15448", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
                         "hash": "37ef0a7c574aeee03c22e1b423a9e2cfac121bc6", 
                         "title": "Fix setting cross section in Rivet analaysis", 
                         "url": "https://github.com/cms-sw/cmssw/pull/15462", 
@@ -20334,15 +20433,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "matz-e"
-                    }, 
-                    {
-                        "hash": "6768c8cf2cac31559b0413b886cc922bb00961b6", 
-                        "title": "Have InputProductResolver use DelayedReader", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/15526", 
-                        "number": "15526", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
                     }
                 ], 
                 "fwlite": []
@@ -21410,6 +21500,42 @@
                 "RVExceptions": null, 
                 "merged_prs": [
                     {
+                        "hash": "d6861782b900228f801c8785a6c284fa2c6cda6b", 
+                        "title": "hip monitoring", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15447", 
+                        "number": "15447", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mtosi"
+                    }, 
+                    {
+                        "hash": "33a05abf72b718fa036a8c87c9ab33828ad33efb", 
+                        "title": "Digi validation suite updated", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15227", 
+                        "number": "15227", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "suchandradutta"
+                    }, 
+                    {
+                        "hash": "6768c8cf2cac31559b0413b886cc922bb00961b6", 
+                        "title": "Have InputProductResolver use DelayedReader", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15526", 
+                        "number": "15526", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "475a0dd8e30258d095de4080e8b6e110d447d6a0", 
+                        "title": "Use standard tracking validation for phase2", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15448", 
+                        "number": "15448", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
                         "hash": "37ef0a7c574aeee03c22e1b423a9e2cfac121bc6", 
                         "title": "Fix setting cross section in Rivet analaysis", 
                         "url": "https://github.com/cms-sw/cmssw/pull/15462", 
@@ -21426,15 +21552,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "matz-e"
-                    }, 
-                    {
-                        "hash": "6768c8cf2cac31559b0413b886cc922bb00961b6", 
-                        "title": "Have InputProductResolver use DelayedReader", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/15526", 
-                        "number": "15526", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
                     }
                 ], 
                 "fwlite": []
@@ -28922,8 +29039,8 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-08-21-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1191, 
-                            "num_failed": 26
+                            "num_passed": 1216, 
+                            "num_failed": 28
                         }
                     }, 
                     {
@@ -29159,6 +29276,42 @@
                 "RVExceptions": null, 
                 "merged_prs": [
                     {
+                        "hash": "d6861782b900228f801c8785a6c284fa2c6cda6b", 
+                        "title": "hip monitoring", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15447", 
+                        "number": "15447", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mtosi"
+                    }, 
+                    {
+                        "hash": "33a05abf72b718fa036a8c87c9ab33828ad33efb", 
+                        "title": "Digi validation suite updated", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15227", 
+                        "number": "15227", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "suchandradutta"
+                    }, 
+                    {
+                        "hash": "6768c8cf2cac31559b0413b886cc922bb00961b6", 
+                        "title": "Have InputProductResolver use DelayedReader", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15526", 
+                        "number": "15526", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "475a0dd8e30258d095de4080e8b6e110d447d6a0", 
+                        "title": "Use standard tracking validation for phase2", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15448", 
+                        "number": "15448", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
                         "hash": "37ef0a7c574aeee03c22e1b423a9e2cfac121bc6", 
                         "title": "Fix setting cross section in Rivet analaysis", 
                         "url": "https://github.com/cms-sw/cmssw/pull/15462", 
@@ -29175,15 +29328,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "matz-e"
-                    }, 
-                    {
-                        "hash": "6768c8cf2cac31559b0413b886cc922bb00961b6", 
-                        "title": "Have InputProductResolver use DelayedReader", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/15526", 
-                        "number": "15526", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
                     }
                 ], 
                 "hlt_tests": "inprogress"
