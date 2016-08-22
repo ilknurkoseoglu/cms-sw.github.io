@@ -428,6 +428,28 @@
     },
     {
         "exitcode": 0,
+        "id": "11225.0",
+        "name": "ZEE_13+ZEE_13TeV_TuneCUETP8M1_2023D3_GenSimFull+DigiFull_2023D3+RecoFullLocal_2023D3",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 7
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 11
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "11226.0",
         "name": "QCD_Pt_600_800_13+QCD_Pt_600_800_13TeV_TuneCUETP8M1_2023D3_GenSimFull+DigiFull_2023D3+RecoFullLocal_2023D3",
         "steps": [

@@ -371,6 +371,33 @@
     },
     {
         "exitcode": 0,
+        "id": "4.23",
+        "name": "ValSkim2011A+ValSkim2011A+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 202
+            },
+            {
+                "errors": 351,
+                "status": "PASSED",
+                "warnings": 5713
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 19
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.24",
         "name": "WMuSkim2011A+WMuSkim2011A+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
         "steps": [
@@ -766,6 +793,33 @@
                 "errors": 515,
                 "status": "PASSED",
                 "warnings": 15925
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.54",
+        "name": "RunEl2012B+RunEl2012B+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 172
+            },
+            {
+                "errors": 491,
+                "status": "PASSED",
+                "warnings": 13248
             },
             {
                 "errors": 1,
@@ -2826,6 +2880,33 @@
                 "errors": 759,
                 "status": "PASSED",
                 "warnings": 14780
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "134.708",
+        "name": "RunSingleMu2015B+RunSingleMu2015B+HLTDR2_50ns+RECODR2_50nsreHLT+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 215
+            },
+            {
+                "errors": 757,
+                "status": "PASSED",
+                "warnings": 11523
             },
             {
                 "errors": 1,
@@ -5141,6 +5222,38 @@
     },
     {
         "exitcode": 0,
+        "id": "1102.0",
+        "name": "RR+TTbarINPUT+DIGI+RECO+RECOFROMRECO+COPYPASTE",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1127
+            },
+            {
+                "errors": 1015,
+                "status": "PASSED",
+                "warnings": 4121
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2172
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 80
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1301.0",
         "name": "ProdMinBias_13+ProdMinBias_13+DIGIUP15PROD1+RECOPRODUP15",
         "steps": [
@@ -7249,6 +7362,33 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 568
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10826.0",
+        "name": "QCD_Pt_600_800_13+QCD_Pt_600_800_13TeV_TuneCUETP8M1_2023D2_GenSimFull+DigiFull_2023D2+RecoFullGlobal_2023D2+HARVESTFullGlobal_2023D2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 31
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 104
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 667
             },
             {
                 "errors": 0,
