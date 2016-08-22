@@ -2169,11 +2169,11 @@
                 {
                     "done": false, 
                     "arch": "slc6_amd64_gcc530", 
-                    "passed": true, 
+                    "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.0-mon-11/CMSSW_8_0_X_2016-08-22-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 61, 
-                        "num_failed": 0
+                        "num_passed": 261, 
+                        "num_failed": 2
                     }
                 }
             ], 
@@ -2182,7 +2182,7 @@
                 "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2016-08-21-1100/slc6_amd64_gcc530"
             }, 
             "isIB": true, 
-            "comp_baseline": "inprogress", 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_8_0_X_2016-08-22-1100/slc6_amd64_gcc530/-GenuineIntel/matrix-results", 
             "inProgress": false, 
             "release_name": "CMSSW_8_0_X_2016-08-22-1100", 
             "tests_archs": [
