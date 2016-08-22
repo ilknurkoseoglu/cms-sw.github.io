@@ -13905,7 +13905,7 @@
                         }
                     }
                 ], 
-                "static_checks": "inprogress", 
+                "static_checks": "slc6_amd64_gcc493:reports/modules2statics-filter1.txt\n", 
                 "cmsdistTags": {
                     "slc6_amd64_gcc493": "IB/CMSSW_7_6_X_2016-08-21-0000/slc6_amd64_gcc493"
                 }, 
@@ -29533,7 +29533,7 @@
                         "author_login": "matz-e"
                     }
                 ], 
-                "hlt_tests": "inprogress"
+                "hlt_tests": "found"
             }, 
             {
                 "fwlite": [], 
