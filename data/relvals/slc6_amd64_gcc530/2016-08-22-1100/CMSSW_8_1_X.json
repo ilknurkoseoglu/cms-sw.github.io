@@ -339,6 +339,33 @@
     },
     {
         "exitcode": 0,
+        "id": "4.23",
+        "name": "ValSkim2011A+ValSkim2011A+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 276
+            },
+            {
+                "errors": 351,
+                "status": "PASSED",
+                "warnings": 5702
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 19
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.24",
         "name": "WMuSkim2011A+WMuSkim2011A+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
         "steps": [
@@ -604,6 +631,33 @@
                 "errors": 300,
                 "status": "PASSED",
                 "warnings": 9337
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.41",
+        "name": "RunTau2012A+RunTau2012A+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 157
+            },
+            {
+                "errors": 525,
+                "status": "PASSED",
+                "warnings": 14866
             },
             {
                 "errors": 1,
@@ -2427,6 +2481,33 @@
     },
     {
         "exitcode": 0,
+        "id": "45.0",
+        "name": "ZpTT_1500_8TeV+ZpTT_1500_8TeVINPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 550
+            },
+            {
+                "errors": 575,
+                "status": "PASSED",
+                "warnings": 4740
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 11
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "103.0",
         "name": "InclusiveppMuX+InclusiveppMuX+DIGI+RECO",
         "steps": [
@@ -3976,6 +4057,33 @@
                 "errors": 753,
                 "status": "PASSED",
                 "warnings": 7155
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "134.911",
+        "name": "RunSinglePh2015D+RunSinglePh2015D+HLTDR2_25ns+RECODR2_25nsreHLT+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 252
+            },
+            {
+                "errors": 763,
+                "status": "PASSED",
+                "warnings": 13131
             },
             {
                 "errors": 1,
