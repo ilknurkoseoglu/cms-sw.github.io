@@ -7618,11 +7618,21 @@
         {
             "fwlite": [], 
             "cmsdistTags": {
-                "slc6_amd64_gcc493": "IB/CMSSW_8_1_X_2016-08-21-0000/slc6_amd64_gcc493"
+                "slc6_amd64_gcc493": "IB/CMSSW_8_1_X_2016-08-21-0000/slc6_amd64_gcc493", 
+                "slc6_amd64_gcc530": "IB/CMSSW_8_1_X_2016-08-21-0000/slc6_amd64_gcc530"
             }, 
             "addons": [], 
             "comp_baseline_state": "ok", 
             "builds": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-08-22-1100/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 9, 
+                        "ignoreWarning": 23
+                    }
+                }, 
                 {
                     "arch": "slc6_amd64_gcc493", 
                     "passed": "error", 
@@ -7639,6 +7649,12 @@
             "valgrind": "inprogress", 
             "utests": [
                 {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-08-22-1100/new/logAnalysis.pkl']", 
+                    "details": {}
+                }, 
+                {
                     "arch": "slc6_amd64_gcc493", 
                     "passed": "unknown", 
                     "file": "['/data/sdt/buildlogs/slc6_amd64_gcc493/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-08-22-1100/new/logAnalysis.pkl']", 
@@ -7653,8 +7669,8 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-08-22-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 50, 
-                        "num_failed": 25
+                        "num_passed": 208, 
+                        "num_failed": 92
                     }
                 }
             ], 
@@ -7665,7 +7681,8 @@
             "inProgress": false, 
             "release_name": "CMSSW_8_1_X_2016-08-22-1100", 
             "tests_archs": [
-                "slc6_amd64_gcc493"
+                "slc6_amd64_gcc493", 
+                "slc6_amd64_gcc530"
             ], 
             "RVExceptions": null, 
             "merged_prs": [
