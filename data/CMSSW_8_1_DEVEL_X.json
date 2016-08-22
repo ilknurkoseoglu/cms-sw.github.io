@@ -1095,7 +1095,26 @@
             "release_name": "CMSSW_8_1_ROOT64_X", 
             "tests_archs": [], 
             "RVExceptions": null, 
-            "merged_prs": [], 
+            "merged_prs": [
+                {
+                    "hash": "37ef0a7c574aeee03c22e1b423a9e2cfac121bc6", 
+                    "title": "Fix setting cross section in Rivet analaysis", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15462", 
+                    "number": "15462", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": true, 
+                    "author_login": "vciulli"
+                }, 
+                {
+                    "hash": "6768c8cf2cac31559b0413b886cc922bb00961b6", 
+                    "title": "Have InputProductResolver use DelayedReader", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15526", 
+                    "number": "15526", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": true, 
+                    "author_login": "Dr15Jones"
+                }
+            ], 
             "fwlite": []
         }
     ]

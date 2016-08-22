@@ -15154,6 +15154,13 @@
     "title": "Updating SiStrip DQM TriggerBits for HIP monitoring (PR #15447)", 
     "user_ref": "81X_updateGTs_forHIPMonitoring"
   }, 
+  "15462": {
+    "author": "vciulli", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "37ef0a7c574aeee03c22e1b423a9e2cfac121bc6", 
+    "title": "Fix setting cross section in Rivet analaysis", 
+    "user_ref": "fixRivetCrossSection"
+  }, 
   "15463": {
     "author": "wmtan", 
     "branch": "CMSSW_8_1_X", 
@@ -15357,6 +15364,13 @@
     "title": "yet another update of triggerbits", 
     "user_ref": "yet_another_updatedTriggerBit"
   }, 
+  "15514": {
+    "author": "matz-e", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "10ff4ac4acf6414a817ba7db651c567a649134d3", 
+    "title": "Change HCAL TP compression to account for multiple FG bits.", 
+    "user_ref": "hcal-tp-compression"
+  }, 
   "15518": {
     "author": "rovere", 
     "branch": "CMSSW_8_1_X", 
@@ -15377,6 +15391,13 @@
     "hash": "2ffc7dad932a7c22cd521314095cabb3558e8c41", 
     "title": "Improve initialization of EgHLTOfflineSource", 
     "user_ref": "speedEGHLT"
+  }, 
+  "15526": {
+    "author": "Dr15Jones", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "6768c8cf2cac31559b0413b886cc922bb00961b6", 
+    "title": "Have InputProductResolver use DelayedReader", 
+    "user_ref": "haveInputProductResolverUseDelayedReader"
   }, 
   "1564": {
     "author": "yetkinyilmaz", 

@@ -13883,7 +13883,7 @@
                         }
                     }
                 ], 
-                "static_checks": "inprogress", 
+                "static_checks": "slc6_amd64_gcc493:reports/modules2statics-filter1.txt\n", 
                 "cmsdistTags": {
                     "slc6_amd64_gcc493": "IB/CMSSW_7_6_X_2016-08-21-0000/slc6_amd64_gcc493"
                 }, 
@@ -17828,7 +17828,35 @@
                 "release_name": "CMSSW_8_1_X", 
                 "tests_archs": [], 
                 "RVExceptions": null, 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "37ef0a7c574aeee03c22e1b423a9e2cfac121bc6", 
+                        "title": "Fix setting cross section in Rivet analaysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15462", 
+                        "number": "15462", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "vciulli"
+                    }, 
+                    {
+                        "hash": "10ff4ac4acf6414a817ba7db651c567a649134d3", 
+                        "title": "Change HCAL TP compression to account for multiple FG bits.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15514", 
+                        "number": "15514", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "matz-e"
+                    }, 
+                    {
+                        "hash": "6768c8cf2cac31559b0413b886cc922bb00961b6", 
+                        "title": "Have InputProductResolver use DelayedReader", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15526", 
+                        "number": "15526", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }
+                ], 
                 "fwlite": []
             }
         ]
@@ -18930,7 +18958,26 @@
                 "release_name": "CMSSW_8_1_ROOT64_X", 
                 "tests_archs": [], 
                 "RVExceptions": null, 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "37ef0a7c574aeee03c22e1b423a9e2cfac121bc6", 
+                        "title": "Fix setting cross section in Rivet analaysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15462", 
+                        "number": "15462", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "vciulli"
+                    }, 
+                    {
+                        "hash": "6768c8cf2cac31559b0413b886cc922bb00961b6", 
+                        "title": "Have InputProductResolver use DelayedReader", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15526", 
+                        "number": "15526", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "Dr15Jones"
+                    }
+                ], 
                 "fwlite": []
             }
         ]
@@ -20269,7 +20316,35 @@
                 "release_name": "CMSSW_8_1_X", 
                 "tests_archs": [], 
                 "RVExceptions": null, 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "37ef0a7c574aeee03c22e1b423a9e2cfac121bc6", 
+                        "title": "Fix setting cross section in Rivet analaysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15462", 
+                        "number": "15462", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "vciulli"
+                    }, 
+                    {
+                        "hash": "10ff4ac4acf6414a817ba7db651c567a649134d3", 
+                        "title": "Change HCAL TP compression to account for multiple FG bits.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15514", 
+                        "number": "15514", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "matz-e"
+                    }, 
+                    {
+                        "hash": "6768c8cf2cac31559b0413b886cc922bb00961b6", 
+                        "title": "Have InputProductResolver use DelayedReader", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15526", 
+                        "number": "15526", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }
+                ], 
                 "fwlite": []
             }
         ]
@@ -21333,7 +21408,35 @@
                 "release_name": "CMSSW_8_1_X", 
                 "tests_archs": [], 
                 "RVExceptions": null, 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "37ef0a7c574aeee03c22e1b423a9e2cfac121bc6", 
+                        "title": "Fix setting cross section in Rivet analaysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15462", 
+                        "number": "15462", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "vciulli"
+                    }, 
+                    {
+                        "hash": "10ff4ac4acf6414a817ba7db651c567a649134d3", 
+                        "title": "Change HCAL TP compression to account for multiple FG bits.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15514", 
+                        "number": "15514", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "matz-e"
+                    }, 
+                    {
+                        "hash": "6768c8cf2cac31559b0413b886cc922bb00961b6", 
+                        "title": "Have InputProductResolver use DelayedReader", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15526", 
+                        "number": "15526", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }
+                ], 
                 "fwlite": []
             }
         ]
@@ -28819,8 +28922,8 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-08-21-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1169, 
-                            "num_failed": 23
+                            "num_passed": 1191, 
+                            "num_failed": 26
                         }
                     }, 
                     {
@@ -29054,7 +29157,35 @@
                 "release_name": "CMSSW_8_1_X", 
                 "tests_archs": [], 
                 "RVExceptions": null, 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "37ef0a7c574aeee03c22e1b423a9e2cfac121bc6", 
+                        "title": "Fix setting cross section in Rivet analaysis", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15462", 
+                        "number": "15462", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "vciulli"
+                    }, 
+                    {
+                        "hash": "10ff4ac4acf6414a817ba7db651c567a649134d3", 
+                        "title": "Change HCAL TP compression to account for multiple FG bits.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15514", 
+                        "number": "15514", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "matz-e"
+                    }, 
+                    {
+                        "hash": "6768c8cf2cac31559b0413b886cc922bb00961b6", 
+                        "title": "Have InputProductResolver use DelayedReader", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15526", 
+                        "number": "15526", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }
+                ], 
                 "hlt_tests": "inprogress"
             }
         ]
