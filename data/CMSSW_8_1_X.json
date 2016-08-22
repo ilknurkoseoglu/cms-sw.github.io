@@ -7479,8 +7479,8 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-08-21-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1236, 
-                        "num_failed": 30
+                        "num_passed": 1269, 
+                        "num_failed": 34
                     }
                 }, 
                 {
@@ -7741,6 +7741,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "9506526c2cf4842fe9c2f9f8410c020c58302a57", 
+                    "title": "Updates in HGCAL L1 trigger", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14831", 
+                    "number": "14831", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "PFCal-dev"
                 }, 
                 {
                     "hash": "475a0dd8e30258d095de4080e8b6e110d447d6a0", 

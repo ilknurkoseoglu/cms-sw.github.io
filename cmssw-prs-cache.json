@@ -12123,6 +12123,13 @@
     "title": "add fillDescriptions function needed by the HLT : CorrPFMETProducer", 
     "user_ref": "Fix_description_090616"
   }, 
+  "14831": {
+    "author": "PFCal-dev", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "9506526c2cf4842fe9c2f9f8410c020c58302a57", 
+    "title": "Updates in HGCAL L1 trigger", 
+    "user_ref": "hgc-tpg-integration-81X"
+  }, 
   "14833": {
     "author": "jshlee", 
     "branch": "CMSSW_8_1_X", 
@@ -25476,6 +25483,11 @@
     "1:072498cca8ba07b83ed08c2413e3ad0a1cbca879", 
     "258:9b95ecaa160c4bb160e1c8c29ce35a8da5d57a16", 
     "229:347ea0a34ac6d06c7a14a2cd1e466dec4fb31868", 
-    "225:ffe7a4e5ed3fd4722dfbf3a27ebbceee24008afb"
+    "225:ffe7a4e5ed3fd4722dfbf3a27ebbceee24008afb", 
+    "34:994a2901dbda3fc6ab05309b8dd31429a7b58e5e", 
+    "33:86b636ceebe8d704bb4f6c2adcb12460178ec0d3", 
+    "32:8b0e83f52c4e3e89b4a2580ccfb7c13cdbbea6e5", 
+    "31:03f93c88fdac3cf98eed87bebfc5b3c683b4458b", 
+    "1:6d7d1f323f9b9082f852c390a97d38ccefab21c0"
   ]
 }
