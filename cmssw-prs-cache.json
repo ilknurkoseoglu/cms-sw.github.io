@@ -15434,6 +15434,27 @@
     "title": "Have InputProductResolver use DelayedReader", 
     "user_ref": "haveInputProductResolverUseDelayedReader"
   }, 
+  "15529": {
+    "author": "VinInn", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "29a097f939dc1cb68089b0e0bcd13c27b6095f2d", 
+    "title": "Fix throwing CapacityExausted", 
+    "user_ref": "FixTSFF"
+  }, 
+  "15539": {
+    "author": "Martin-Grunewald", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "3f232092d49b7d34c8cd81df0d73429ae534ce53", 
+    "title": "TSG test files from TSG eos location (81X)", 
+    "user_ref": "TSGeos81X"
+  }, 
+  "15541": {
+    "author": "mmusich", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "aca849e166d0e5ed6761f507aae8f44ddee6d5d0", 
+    "title": "Miscellaneous fixes to new FSQ vtx smearing parameters", 
+    "user_ref": "81X_FSQ_vtxSmearingFixes"
+  }, 
   "15546": {
     "author": "surnairit", 
     "branch": "CMSSW_8_1_X", 
@@ -15462,12 +15483,26 @@
     "title": "Set Global Quality to show RED when FE is disabled", 
     "user_ref": "GlobalQt81X"
   }, 
+  "15555": {
+    "author": "bsunanda", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "08d3d658b740790022e01698a361c9c8111da2e0", 
+    "title": "bsunanda:Run2-TB06 Changes in TB configuration and removal of hardwired layer grouping", 
+    "user_ref": "Run2-TB06"
+  }, 
   "15559": {
     "author": "smuzaffar", 
     "branch": "CMSSW_8_1_X", 
     "hash": "a769fd971e7ede7dc3ee455ed5f0d652a34d43c2", 
     "title": "remove unused variable to avoid gcc493 build errors", 
     "user_ref": "fix-gcc493-unused-variable-error"
+  }, 
+  "15560": {
+    "author": "mmusich", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "a0dec28824687b5a5b7439b68e39251b6de01a02", 
+    "title": "Adding key for Run2 pA simulation", 
+    "user_ref": "81X_addKeyForpPb"
   }, 
   "1564": {
     "author": "yetkinyilmaz", 

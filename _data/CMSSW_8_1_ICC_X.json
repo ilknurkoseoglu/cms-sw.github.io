@@ -1446,15 +1446,6 @@
             "RVExceptions": null, 
             "merged_prs": [
                 {
-                    "hash": "ef608f2b11df7ba8576a1a0770da6506d3817514", 
-                    "title": "bTag validation for PhaseII reco", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15494", 
-                    "number": "15494", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "cms-btv-pog"
-                }, 
-                {
                     "hash": "dc186ebc95ba021e807dbbd6b5f37db8a87a3572", 
                     "title": "Modifications to include HLT_DoubleMu0 path in the HeavyFlavor DQM package in CMSSW_8_1_X", 
                     "url": "https://github.com/cms-sw/cmssw/pull/15546", 
@@ -1462,6 +1453,51 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "surnairit"
+                }, 
+                {
+                    "hash": "a769fd971e7ede7dc3ee455ed5f0d652a34d43c2", 
+                    "title": "remove unused variable to avoid gcc493 build errors", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15559", 
+                    "number": "15559", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "smuzaffar"
+                }, 
+                {
+                    "hash": "29a097f939dc1cb68089b0e0bcd13c27b6095f2d", 
+                    "title": "Fix throwing CapacityExausted", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15529", 
+                    "number": "15529", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "VinInn"
+                }, 
+                {
+                    "hash": "3f232092d49b7d34c8cd81df0d73429ae534ce53", 
+                    "title": "TSG test files from TSG eos location (81X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15539", 
+                    "number": "15539", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Martin-Grunewald"
+                }, 
+                {
+                    "hash": "08d3d658b740790022e01698a361c9c8111da2e0", 
+                    "title": "bsunanda:Run2-TB06 Changes in TB configuration and removal of hardwired layer grouping", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15555", 
+                    "number": "15555", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "ef608f2b11df7ba8576a1a0770da6506d3817514", 
+                    "title": "bTag validation for PhaseII reco", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15494", 
+                    "number": "15494", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-btv-pog"
                 }, 
                 {
                     "hash": "aa8bffd5af78b69337d314217f6427b6b0292906", 
@@ -1473,13 +1509,22 @@
                     "author_login": "mbandrews"
                 }, 
                 {
-                    "hash": "a769fd971e7ede7dc3ee455ed5f0d652a34d43c2", 
-                    "title": "remove unused variable to avoid gcc493 build errors", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/15559", 
-                    "number": "15559", 
+                    "hash": "aca849e166d0e5ed6761f507aae8f44ddee6d5d0", 
+                    "title": "Miscellaneous fixes to new FSQ vtx smearing parameters", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15541", 
+                    "number": "15541", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "smuzaffar"
+                    "author_login": "mmusich"
+                }, 
+                {
+                    "hash": "a0dec28824687b5a5b7439b68e39251b6de01a02", 
+                    "title": "Adding key for Run2 pA simulation", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15560", 
+                    "number": "15560", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
                 }, 
                 {
                     "hash": "82414d9784c4705bbd9250c9edc7d980f4164766", 
