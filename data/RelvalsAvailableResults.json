@@ -33,6 +33,7 @@
     "CMSSW_8_1_CLANG_X_2016-08-21-0000": "slc6_amd64_gcc530", 
     "CMSSW_8_1_NONTHREADED_X_2016-08-15-1100": "slc6_amd64_gcc530", 
     "CMSSW_8_0_X_2016-08-21-1100": "slc6_amd64_gcc530", 
+    "CMSSW_8_1_CLANG_X_2016-08-22-2300": "slc6_amd64_gcc530", 
     "CMSSW_8_1_NONTHREADED_X_2016-08-19-1100": "slc6_amd64_gcc530", 
     "CMSSW_8_1_X_2016-08-16-1100": "slc6_amd64_gcc493,slc6_amd64_gcc530,slc7_aarch64_gcc530,slc6_amd64_gcc600,slc7_amd64_gcc530", 
     "CMSSW_7_6_X_2016-08-20-1100": "slc6_amd64_gcc493", 
