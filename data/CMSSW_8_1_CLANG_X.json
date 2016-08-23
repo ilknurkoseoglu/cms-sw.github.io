@@ -131,65 +131,25 @@
             "fwlite": []
         }, 
         {
-            "addons": [
-                {
-                    "arch": "slc6_amd64_gcc530", 
-                    "passed": false, 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1.CLANG-mon-23/CMSSW_8_1_CLANG_X_2016-08-15-2300/addOnTests.log", 
-                    "details": {}
-                }
-            ], 
+            "addons": [], 
             "comp_baseline_state": "errors", 
-            "builds": [
-                {
-                    "arch": "slc6_amd64_gcc530", 
-                    "passed": "error", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1.CLANG-mon-23/CMSSW_8_1_CLANG_X_2016-08-15-2300/new/logAnalysis.pkl", 
-                    "details": {
-                        "compWarning": 2987, 
-                        "linkError": 4, 
-                        "ignoreWarning": 1663
-                    }
-                }
-            ], 
+            "builds": [], 
             "valgrind": "not-found", 
             "compared_tags": "CMSSW_8_1_CLANG_X_2016-08-15-1100-->CMSSW_8_1_CLANG_X_2016-08-15-2300", 
             "dqm_tests": "found", 
-            "utests": [
-                {
-                    "arch": "slc6_amd64_gcc530", 
-                    "passed": "failed", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1.CLANG-mon-23/CMSSW_8_1_CLANG_X_2016-08-15-2300/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "112"
-                    }
-                }
-            ], 
+            "utests": [], 
             "cmsdistTags": {
                 "slc6_amd64_gcc530": "ERR/CMSSW_8_1_CLANG_X_2016-08-15-2300/slc6_amd64_gcc530"
             }, 
             "igprof": "not-found", 
-            "relvals": [
-                {
-                    "done": true, 
-                    "arch": "slc6_amd64_gcc530", 
-                    "passed": false, 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1.CLANG-mon-23/CMSSW_8_1_CLANG_X_2016-08-15-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 214, 
-                        "num_failed": 360
-                    }
-                }
-            ], 
+            "relvals": [], 
             "static_checks": "not-found", 
             "isIB": true, 
             "hlt_tests": "not-found", 
             "comp_baseline": "not-found", 
             "inProgress": false, 
             "release_name": "CMSSW_8_1_CLANG_X_2016-08-15-2300", 
-            "tests_archs": [
-                "slc6_amd64_gcc530"
-            ], 
+            "tests_archs": [], 
             "RVExceptions": null, 
             "merged_prs": [
                 {
@@ -1459,7 +1419,7 @@
             ], 
             "valgrind": "not-found", 
             "compared_tags": "CMSSW_8_1_CLANG_X_2016-08-22-1100-->CMSSW_8_1_CLANG_X_2016-08-22-2300", 
-            "dqm_tests": "inprogress", 
+            "dqm_tests": "found", 
             "utests": [
                 {
                     "arch": "slc6_amd64_gcc530", 
