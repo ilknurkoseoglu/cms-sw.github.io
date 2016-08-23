@@ -1248,6 +1248,33 @@
     },
     {
         "exitcode": 0,
+        "id": "16.0",
+        "name": "SingleElectronPt1000+SingleElectronPt1000INPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 15
+            },
+            {
+                "errors": 200,
+                "status": "PASSED",
+                "warnings": 879
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 12
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "21.0",
         "name": "SingleMuPt100+SingleMuPt100INPUT+DIGI+RECO+HARVEST",
         "steps": [
@@ -1265,6 +1292,33 @@
                 "errors": 200,
                 "status": "PASSED",
                 "warnings": 827
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 11
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "22.0",
+        "name": "SingleMuPt1000+SingleMuPt1000INPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
+            },
+            {
+                "errors": 200,
+                "status": "PASSED",
+                "warnings": 849
             },
             {
                 "errors": 3,
@@ -1513,6 +1567,33 @@
                 "errors": 467,
                 "status": "PASSED",
                 "warnings": 835
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 11
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "32.0",
+        "name": "H130GGgluonfusion+H130GGgluonfusionINPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 524,
+                "status": "PASSED",
+                "warnings": 869
             },
             {
                 "errors": 3,
@@ -1986,6 +2067,28 @@
                 "errors": 105,
                 "status": "PASSED",
                 "warnings": 115
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "125.0",
+        "name": "ZPrime5000Dijet+ZPrime5000Dijet+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 18
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 10
+            },
+            {
+                "errors": 52,
+                "status": "PASSED",
+                "warnings": 96
             }
         ]
     },
@@ -3927,6 +4030,33 @@
     },
     {
         "exitcode": 0,
+        "id": "1306.0",
+        "name": "SingleMuPt1_UP15+SingleMuPt1_UP15INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 5
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1309.0",
         "name": "Higgs200ChargedTaus_13+Higgs200ChargedTaus_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
         "steps": [
@@ -4219,6 +4349,33 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 8
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1321.0",
+        "name": "SingleMuPt100_UP15+SingleMuPt100_UP15INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 12
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 15
             },
             {
                 "errors": 0,
@@ -5287,6 +5444,33 @@
     },
     {
         "exitcode": 0,
+        "id": "10821.0",
+        "name": "TenMuE_0_200+TenMuE_0_200_pythia8_2023D2_GenSimFull+DigiFull_2023D2+RecoFullGlobal_2023D2+HARVESTFullGlobal_2023D2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "10824.0",
         "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2023D2_GenSimFull+DigiFull_2023D2+RecoFullGlobal_2023D2+HARVESTFullGlobal_2023D2",
         "steps": [
@@ -6113,6 +6297,18 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250199.0",
+        "name": "PREMIXUP15_PU25+PREMIXUP15_PU25",
+        "steps": [
+            {
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 67
             }
         ]
     },
