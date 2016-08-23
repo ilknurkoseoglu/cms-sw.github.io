@@ -892,6 +892,28 @@
     },
     {
         "exitcode": 0,
+        "id": "108.0",
+        "name": "H165WW2L+H165WW2L+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 21
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 9
+            },
+            {
+                "errors": 93,
+                "status": "PASSED",
+                "warnings": 111
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "117.0",
         "name": "QCD_Pt_120_170+QCD_Pt_120_170+DIGI+RECO",
         "steps": [
@@ -975,6 +997,33 @@
                 "errors": 145,
                 "status": "PASSED",
                 "warnings": 109
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "134.701",
+        "name": "RunHLTPhy2015B+RunHLTPhy2015B+HLTDR2_50ns+RECODR2_50nsreHLT+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 14
+            },
+            {
+                "errors": 586,
+                "status": "PASSED",
+                "warnings": 568
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 11
             }
         ]
     },
