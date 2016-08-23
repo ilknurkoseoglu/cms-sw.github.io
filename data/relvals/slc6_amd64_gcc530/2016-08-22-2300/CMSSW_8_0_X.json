@@ -4737,6 +4737,33 @@
     },
     {
         "exitcode": 0,
+        "id": "134.806",
+        "name": "RunMuonEG2015C+RunMuonEG2015C+HLTDR2_25ns+RECODR2_25nsreHLT+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 128
+            },
+            {
+                "errors": 837,
+                "status": "PASSED",
+                "warnings": 1115
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "134.807",
         "name": "RunDoubleEGPrpt2015C+RunDoubleEGPrpt2015C+HLTDR2_25ns+RECODR2_25nsreHLT+HARVESTDR2",
         "steps": [
@@ -7761,6 +7788,28 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 44
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "500200.1",
+        "name": "ProdZEE_13_pmx50ns+ProdZEE_13+DIGIPRMXUP15_PROD_PU50+RECOPRMXUP15PROD_PU50",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 98
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 49
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
             }
         ]
     },
