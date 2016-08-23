@@ -15322,6 +15322,13 @@
     "title": "fixing FEDFatal ME and reportSummaryMap in DQM", 
     "user_ref": "fedplots_81"
   }, 
+  "15494": {
+    "author": "cms-btv-pog", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "ef608f2b11df7ba8576a1a0770da6506d3817514", 
+    "title": "bTag validation for PhaseII reco", 
+    "user_ref": "Phase2bTagValidation_from-CMSSW_8_1_0_pre9"
+  }, 
   "15495": {
     "author": "makortel", 
     "branch": "CMSSW_8_1_X", 
@@ -15427,12 +15434,26 @@
     "title": "Have InputProductResolver use DelayedReader", 
     "user_ref": "haveInputProductResolverUseDelayedReader"
   }, 
+  "15546": {
+    "author": "surnairit", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "dc186ebc95ba021e807dbbd6b5f37db8a87a3572", 
+    "title": "Modifications to include HLT_DoubleMu0 path in the HeavyFlavor DQM package in CMSSW_8_1_X", 
+    "user_ref": "DoubleMu0_DQM_81X"
+  }, 
   "15548": {
     "author": "kurtejung", 
     "branch": "CMSSW_8_1_X", 
     "hash": "82414d9784c4705bbd9250c9edc7d980f4164766", 
     "title": "Fix boosting software for pPb MC", 
     "user_ref": "boostdebug_81X_04"
+  }, 
+  "15549": {
+    "author": "smuzaffar", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "5e1f8f2aa5a0a8d529d21f092fa2b986f5e6f247", 
+    "title": "Internal das client python module to call das_client wrapper", 
+    "user_ref": "cmssw_das_client"
   }, 
   "15553": {
     "author": "mbandrews", 
