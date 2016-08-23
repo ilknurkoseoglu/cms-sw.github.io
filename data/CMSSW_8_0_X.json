@@ -2100,7 +2100,16 @@
             "hlt_tests": "found"
         }, 
         {
-            "fwlite": [], 
+            "fwlite": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/tue/8.0-tue-11/CMSSW_8_0_X_2016-08-23-1100/new_FWLITE/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 1
+                    }
+                }
+            ], 
             "addons": [], 
             "comp_baseline_state": "ok", 
             "builds": [
@@ -2112,7 +2121,7 @@
                 }
             ], 
             "compared_tags": "CMSSW_8_0_X_2016-08-22-2300-->CMSSW_8_0_X_2016-08-23-1100", 
-            "valgrind": "inprogress", 
+            "valgrind": "found", 
             "utests": [
                 {
                     "arch": "slc6_amd64_gcc530", 
