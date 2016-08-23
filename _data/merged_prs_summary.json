@@ -13964,12 +13964,12 @@
                 "igprof": "not-found", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc6_amd64_gcc493", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/mon/7.6-mon-23/CMSSW_7_6_X_2016-08-22-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 940, 
+                            "num_passed": 964, 
                             "num_failed": 136
                         }
                     }
@@ -29498,7 +29498,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-08-22-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 285, 
+                            "num_passed": 301, 
                             "num_failed": 1
                         }
                     }, 
@@ -29628,7 +29628,14 @@
                 "cmsdistTags": {
                     "slc6_amd64_gcc530": "IB/CMSSW_8_1_X_2016-08-21-0000/slc6_amd64_gcc530"
                 }, 
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1-mon-23/CMSSW_8_1_X_2016-08-22-2300/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "comp_baseline_state": "ok", 
                 "builds": [
                     {
@@ -29659,13 +29666,13 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1-mon-23/CMSSW_8_1_X_2016-08-22-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 136, 
+                            "num_passed": 360, 
                             "num_failed": 0
                         }
                     }
                 ], 
                 "static_checks": "inprogress", 
-                "igprof": "inprogress", 
+                "igprof": "found", 
                 "isIB": true, 
                 "comp_baseline": "inprogress", 
                 "inProgress": false, 
