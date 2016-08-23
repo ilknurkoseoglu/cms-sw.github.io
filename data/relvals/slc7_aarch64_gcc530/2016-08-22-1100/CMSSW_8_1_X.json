@@ -509,6 +509,33 @@
     },
     {
         "exitcode": 0,
+        "id": "134.706",
+        "name": "RunMuonEG2015B+RunMuonEG2015B+HLTDR2_50ns+RECODR2_50nsreHLT+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 12
+            },
+            {
+                "errors": 929,
+                "status": "PASSED",
+                "warnings": 539
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 13
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "134.803",
         "name": "RunDoubleMuon2015C+RunDoubleMuon2015C+HLTDR2_25ns+RECODR2_25nsreHLT+HARVESTDR2",
         "steps": [
@@ -1309,6 +1336,33 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 36
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10824.0",
+        "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2023D2_GenSimFull+DigiFull_2023D2+RecoFullGlobal_2023D2+HARVESTFullGlobal_2023D2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 13
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 12
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 62
             },
             {
                 "errors": 0,
