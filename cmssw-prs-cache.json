@@ -15427,6 +15427,27 @@
     "title": "Have InputProductResolver use DelayedReader", 
     "user_ref": "haveInputProductResolverUseDelayedReader"
   }, 
+  "15548": {
+    "author": "kurtejung", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "82414d9784c4705bbd9250c9edc7d980f4164766", 
+    "title": "Fix boosting software for pPb MC", 
+    "user_ref": "boostdebug_81X_04"
+  }, 
+  "15553": {
+    "author": "mbandrews", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "aa8bffd5af78b69337d314217f6427b6b0292906", 
+    "title": "Set Global Quality to show RED when FE is disabled", 
+    "user_ref": "GlobalQt81X"
+  }, 
+  "15559": {
+    "author": "smuzaffar", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "a769fd971e7ede7dc3ee455ed5f0d652a34d43c2", 
+    "title": "remove unused variable to avoid gcc493 build errors", 
+    "user_ref": "fix-gcc493-unused-variable-error"
+  }, 
   "1564": {
     "author": "yetkinyilmaz", 
     "branch": "CMSSW_5_3_X", 

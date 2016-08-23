@@ -1108,7 +1108,26 @@
             "release_name": "CMSSW_8_1_ROOT64_X", 
             "tests_archs": [], 
             "RVExceptions": null, 
-            "merged_prs": [], 
+            "merged_prs": [
+                {
+                    "hash": "a769fd971e7ede7dc3ee455ed5f0d652a34d43c2", 
+                    "title": "remove unused variable to avoid gcc493 build errors", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15559", 
+                    "number": "15559", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": true, 
+                    "author_login": "smuzaffar"
+                }, 
+                {
+                    "hash": "aa8bffd5af78b69337d314217f6427b6b0292906", 
+                    "title": "Set Global Quality to show RED when FE is disabled", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15553", 
+                    "number": "15553", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": true, 
+                    "author_login": "mbandrews"
+                }
+            ], 
             "fwlite": []
         }
     ]
